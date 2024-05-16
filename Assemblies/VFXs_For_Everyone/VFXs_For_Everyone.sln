@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFXs_For_Everyone", "VFXs_For_Everyone.csproj", "{3CFCB7A4-EC80-406A-B424-ACE7A0FE367A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFCB7A4-EC80-406A-B424-ACE7A0FE367A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFCB7A4-EC80-406A-B424-ACE7A0FE367A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFCB7A4-EC80-406A-B424-ACE7A0FE367A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFCB7A4-EC80-406A-B424-ACE7A0FE367A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B82FE8CC-01A3-4A43-B149-971B6A85CBD1}
+	EndGlobalSection
+EndGlobal

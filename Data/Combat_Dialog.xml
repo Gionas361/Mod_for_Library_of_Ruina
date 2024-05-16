@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Character ID="1">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="2">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="3">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
+  <Character ID="4">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
+  <Character ID="6">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Lets get this started!!!!!!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">THE STRONG CONSUME THE WEAK!!!!</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">Dammit... i wasn't strong enough....</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Should have gotten stronger before this fight.</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">A nice meal for the time being.</BattleDialog>
+    </Type>
+  </Character>
+</BattleDialogRoot>

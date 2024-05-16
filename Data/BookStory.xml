@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+    <BookDesc BookID="10000001">
+      <BookName />
+      <TextList>
+        <Desc>[Redacted]</Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="10000002">
+      <BookName />
+      <TextList>
+        <Desc>[Redacted]</Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="10000003">
+      <BookName />
+      <TextList>
+        <Desc />
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="10000004">
+      <BookName />
+      <TextList>
+        <Desc />
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="10000006">
+      <BookName />
+      <TextList>
+        <Desc>In his current state Zerk is but a Young Dragon that is bored with the environment and community of Dragons in general. And so, in the neer future he decided to change his apparence into one closer to humans and blend into their Society to cleanse his boredom.</Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

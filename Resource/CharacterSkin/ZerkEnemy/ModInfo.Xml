@@ -1,0 +1,56 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>
+    </Name>
+    <Default>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="34.5" pivot_y="-411.5" />
+      <Head head_x="-6.900002" head_y="510.6" rotation="-7.610264" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="39.09999" pivot_y="-422.9999" />
+      <Head head_x="-29.9" head_y="464.6" rotation="-7.610231" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="230" pivot_y="-402.2999" />
+      <Head head_x="0" head_y="519.8" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="18.4" pivot_y="-406.9" />
+      <Head head_x="-9.200001" head_y="432.4" rotation="6.658959" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="25.3" pivot_y="-420.6999" />
+      <Head head_x="4.600002" head_y="439.3" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="41.39999" pivot_y="-418.3999" />
+      <Head head_x="-29.89999" head_y="457.7" rotation="-1.902534" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="55.19999" pivot_y="-422.9999" />
+      <Head head_x="6.900002" head_y="476.1" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-89.7" pivot_y="-422.9999" />
+      <Head head_x="-149.5001" head_y="384.1" rotation="16.17177" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="43.69999" pivot_y="-425.3" />
+      <Head head_x="-32.19999" head_y="471.5001" rotation="-4.756383" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="39.09999" pivot_y="-413.8" />
+      <Head head_x="-13.8" head_y="510.6" rotation="-4.756383" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

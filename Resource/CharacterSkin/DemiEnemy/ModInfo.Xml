@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Demi</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-376.9999" />
+      <Head head_x="25.3" head_y="478.4" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="59.79999" pivot_y="-420.7" />
+      <Head head_x="-9.199989" head_y="457.7" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="177.1" pivot_y="-443.6999" />
+      <Head head_x="27.60004" head_y="515.2" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="25.3" pivot_y="-411.5" />
+      <Head head_x="-6.9" head_y="446.2" rotation="7.268153" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="227.7" pivot_y="-416.0999" />
+      <Head head_x="-46.00006" head_y="391" rotation="-2.4227" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="262.2" pivot_y="-383.9" />
+      <Head head_x="-46.00003" head_y="361.1" rotation="-9.085178" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="218.5001" pivot_y="-400" />
+      <Head head_x="-85.10004" head_y="391.0001" rotation="-12.71924" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-131.1" pivot_y="-418.4" />
+      <Head head_x="-105.8" head_y="377.2" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="16.1" pivot_y="-374.7" />
+      <Head head_x="6.900002" head_y="476.1" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="11.5" pivot_y="-377" />
+      <Head head_x="16.1" head_y="480.7" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

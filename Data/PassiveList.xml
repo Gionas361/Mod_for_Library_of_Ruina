@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>TwoCardsPerScene</Script>
+    <Name>Unending Stream of Stars</Name>
+    <Desc>At the start of the scene, draw an additional 2 cards.</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Add1Golden</Script>
+    <Name>Star Burst</Name>
+    <Desc>Every turn 2 add a "Star Fall" to Librarian's hand. Every turn 4 "Infi'nitas" and every turn 6 add both to Librarian's hand.</Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>OnesidedPowerUp</Script>
+    <Name>Revenge Shadow</Name>
+    <Desc>If hit 3 times or more by One Sided attacks, gain 3 Power next Scene.</Desc>
+  </Passive>
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>DemidrawRegenUnique</Script>
+    <Name>Regenerating Shadow</Name>
+    <Desc>Recover 4 energy +1 every 2 emotion levels, if at [End of Turn] all Light was used. And draw 2 cards if hand is Empty at [End of Turn] +1 every 2 emotion levels.</Desc>
+  </Passive>
+  <Passive ID="5">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>EmotionalDiceAdder</Script>
+    <Name>Speed IV</Name>
+    <Desc>Add a dice for each emotional level of the Librarian.</Desc>
+  </Passive>
+  <Passive ID="6">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>ReyOrderCardUnique</Script>
+    <Name>Hunting Horn Wielder</Name>
+    <Desc>If no cards were used this Scene recover 3 Light. Librarian is immune to Burn. One stack of Burn is applied and kept for each Symphony used in order. Upon reaching and using the 5th Symphony all burn is lost and gives every Librarian 3 Strenght, Endurance and Haste, they restore 3 Light, and heals them by 9 HP.</Desc>
+  </Passive>
+  <Passive ID="7">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>EgoAbility</Script>
+    <Name>Valkiria Awakening</Name>
+    <Desc>Gains the 3 E.G.O pages that belong to the Strongest Star in the Existance.</Desc>
+  </Passive>
+  <Passive ID="8">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>7</Cost>
+    <Script>ZerkEveryUnique</Script>
+    <Name>Heart of a Dragon</Name>
+    <Desc>Discard hand at end of Scene and draw 5 cards. Gain Young Zerk's E.G.O Page. For each card used increase "Mana Stack". Once the card "Cashout Engine" is used restore light equal to the count and restart the count.</Desc>
+  </Passive>
+  <Passive ID="9">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>ZerkPassiveHeal</Script>
+    <Name>Draconic Skin Shed</Name>
+    <Desc>When using a Combat Page with atleast one Defensive die, heal 1 to 8 HP times the amount of Defensive die in the page.</Desc>
+  </Passive>
+</PassiveXmlRoot>

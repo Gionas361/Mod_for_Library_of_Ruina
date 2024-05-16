@@ -1,0 +1,56 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>
+    </Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="27.59999" pivot_y="-423.0001" />
+      <Head head_x="-6.899998" head_y="535.9" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="59.8" pivot_y="-457.4999" />
+      <Head head_x="-18.4" head_y="561.2" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="144.8999" pivot_y="-475.9" />
+      <Head head_x="64.40001" head_y="572.7" rotation="6.599994" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="9.199998" pivot_y="-418.3999" />
+      <Head head_x="-25.3" head_y="446.2" rotation="7.799993" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="305.8999" pivot_y="-498.8998" />
+      <Head head_x="-25.29999" head_y="450.8" rotation="0.5999994" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-2.299997" pivot_y="-438.3999" />
+      <Head head_x="-69.00002" head_y="446.2" rotation="15.60001" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="75.9" pivot_y="-427.6" />
+      <Head head_x="-64.4" head_y="519.8" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-62.09999" pivot_y="-425.3" />
+      <Head head_x="-186.3001" head_y="407.1" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="52.89999" head_y="485.3" rotation="2.999997" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="57.49999" pivot_y="-383.9" />
+      <Head head_x="-71.3" head_y="483" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>
