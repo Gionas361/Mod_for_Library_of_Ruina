@@ -1,0 +1,60 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>DDJJ's Page</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="36.8" pivot_y="-409.2" />
+      <Head head_x="-2.299999" head_y="448.5" rotation="0" head_enable="True" />
+    </Default>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="25.3" pivot_y="-413.8" />
+      <Head head_x="-11.5" head_y="425.5" rotation="4.799995" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="230.0001" pivot_y="-413.7999" />
+      <Head head_x="-32.20003" head_y="374.9" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Penetrate2>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="193.2" pivot_y="-411.4999" />
+      <Head head_x="6.899979" head_y="370.3" rotation="-9.000002" head_enable="True" />
+    </Penetrate2>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-9.2" pivot_y="-418.4" />
+      <Head head_x="-39.09999" head_y="370.3" rotation="-9.600001" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Move>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Damaged>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

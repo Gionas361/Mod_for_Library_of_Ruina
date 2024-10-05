@@ -76,7 +76,7 @@
     <Cost>4</Cost>
     <Script>ReyOrderCardUnique</Script>
     <Name>Hunting Horn Wielder</Name>
-    <Desc>If no cards were used this Scene recover 3 Light. Librarian is immune to Burn. One stack of Burn is applied and kept for each Symphony used in order. Upon reaching and using the 5th Symphony all burn is lost and gives every Librarian 3 Strenght, Endurance and Haste, they restore 3 Light, and heals them by 9 HP.</Desc>
+    <Desc>If no cards were used this Scene recover 3 Light. For each Symphony used in order increase Hunting Horn Notes by 1. Upon reaching 4th, discard a card and get the 5th Symphony. When the 5th is used, reset Hunting Horn Notes and give every Librarian 3 Strenght, Endurance and Haste, all librarians restore 3 Light, and heal them by 9 HP.</Desc>
   </Passive>
   <Passive ID="7">
     <Negative>false</Negative>
@@ -102,7 +102,7 @@
     <Cost>7</Cost>
     <Script>ZerkEveryUnique</Script>
     <Name>Heart of a Dragon</Name>
-    <Desc>Discard hand at end of Scene and draw 5 cards. Gain Young Zerk's E.G.O Page. For each card used increase "Mana Stack". Once the card "Cashout Engine" is used restore light equal to the count and restart the count.</Desc>
+    <Desc>Discard hand at end of Scene and draw 6 cards. Gain Young Zerk's E.G.O Page. For each card used increase "Mana Stack", also increase "Mana Stack" for every 2 cards remaining in hand by the end of the Scene. Once the card "Cashout Engine" is used restore light equal to the Librarian's max Light capasity, and consume "Mana Stacks" equal to that amount. Once the E.G.O page "Expendable Engine" is used, half the "Mana Stack" count. If is Singleton, cards from Young Zerk will instead increase the "Mana Stack" count by 2 instead of 1.</Desc>
   </Passive>
   <Passive ID="9">
     <Negative>false</Negative>
@@ -115,6 +115,110 @@
     <Cost>5</Cost>
     <Script>ZerkPassiveHeal</Script>
     <Name>Draconic Skin Shed</Name>
-    <Desc>When using a Combat Page with atleast one Defensive die, heal 1 to 8 HP times the amount of Defensive die in the page.</Desc>
+    <Desc>When using a Combat Page with atleast one Defensive die, heal 1 to 8 HP times the amount of Defensive die in the page. If at the [End of the Scene], the Librarian has 1 or less Light, recover 2 Light.</Desc>
+  </Passive>
+    <Passive ID="10">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>12</Cost>
+    <Script>OverpoweredDragon</Script>
+    <Name>Overpowered Dragon</Name>
+    <Desc>Give 2 Speed Die to the Librarian. Decrease the cost of all the cards by the emotional level of the Librarian and restore light equal to the level of the Librarian.</Desc>
+  </Passive>
+  <Passive ID="11">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>IrahBloodManager</Script>
+    <Name>The Original Vampire</Name>
+    <Desc>For each 150 Blood the librarian has, gain 1 "Solified Blood". When hit, gain blood equal to the DMG received. On Hit, gain 10 Blood. When the librarian gets staggered, immidietly recover from Stagger and consume a MAX 350 Blood; If Blood equals or exceeds 500, lose 10% HP. If less than 500 Blood, lose 25% HP instead, for every 10 blood away from 350 Blood lose 1 addtional HP.</Desc>
+  </Passive>
+  <Passive ID="12">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>IrahBloodLight</Script>
+    <Name>Unstoppable</Name>
+    <Desc>Recover all light and draw all cards in deck.</Desc>
+  </Passive>
+  <Passive ID="13">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>DreamOfGionasManager</Script>
+    <Name>Dreamer</Name>
+    <Desc>Doesn't lose 2 Dreams on Scene Start. If on Scene Start, librarian has 50 dreams, gain 1 "Dreams to Remember" (Up to 3). Crits are now dealt at a 50% chance. Random Buff application from Dreams are now also at a 50% chance. Nightmares only give 1 Fragile and 1 Disarm instead of 2. Obtain the EGO Page Nightmare.</Desc>
+  </Passive>
+  <Passive ID="14">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>DistortedDreamer</Script>
+    <Name>Sleep Demon</Name>
+    <Desc>Doesn't lose 1 Nightmare on Scene Start and on Hit, all Dreams are forgotten at end of Scene. Gain unique page Fear Dream. If on Scene End, librarian has newly gotten the Nightmare Debuff, Distort into the Sleep Demon. When Distorted, gain 1 Nightmare on Scene Start and on Scene End take SP DMG: 3 x Nightmare. Stay Distorted for as long as Librarian has Nightmares. Restore Light and Draw Pages equal to half of Nightmares.</Desc>
+  </Passive>
+  <Passive ID="15">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>EmpathicTrigger</Script>
+    <Name>Pitiful Empathy</Name>
+    <Desc>Receive the "Pitiful Empathy" effect.</Desc>
+  </Passive>
+  <Passive ID="16">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>LastFriend</Script>
+    <Name>Last Friend</Name>
+    <Desc>At the start of each Scene, gain 1 Strength if no other allies are present. Inflict +2 Stardust if the Target already has Stardust.</Desc>
+  </Passive>
+  <Passive ID="17">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>EclosingOne</Script>
+    <Name>The Eclosing One</Name>
+    <Desc>If User causes a "True Burst" of Stardust, Awaken E.G.O next turn. Then discard 3 random Pages and Obtain the Single-Use Page: "Culmination".</Desc>
   </Passive>
 </PassiveXmlRoot>

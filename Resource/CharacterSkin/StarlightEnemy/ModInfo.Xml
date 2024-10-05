@@ -3,53 +3,53 @@
     <Name>Starlight</Name>
     <Default>
       <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-9.2" head_y="384.1" rotation="0" head_enable="True" />
+      <Pivot pivot_x="25.3" pivot_y="-378.5999" />
+      <Head head_x="6.900002" head_y="478.4" rotation="0" head_enable="True" />
     </Default>
     <Guard>
-      <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-59.79999" head_y="315.1" rotation="9.27671" head_enable="True" />
+      <Direction>Side</Direction>
+      <Pivot pivot_x="128.8" pivot_y="-418.3999" />
+      <Head head_x="-110.4" head_y="430.1" rotation="0" head_enable="True" />
     </Guard>
     <Evade>
-      <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="142.6" head_y="402.5" rotation="-8.433359" head_enable="True" />
+      <Direction>Side</Direction>
+      <Pivot pivot_x="195.5" pivot_y="-400" />
+      <Head head_x="6.9" head_y="462.3" rotation="0" head_enable="True" />
     </Evade>
     <Damaged>
       <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-32.2" head_y="372.6" rotation="8.433401" head_enable="True" />
+      <Pivot pivot_x="13.8" pivot_y="-402.2999" />
+      <Head head_x="-4.599998" head_y="418.6" rotation="9.600001" head_enable="True" />
     </Damaged>
     <Slash>
       <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-262.0002" />
-      <Head head_x="0" head_y="370.3" rotation="0" head_enable="True" />
+      <Pivot pivot_x="-50.59999" pivot_y="-243.6" />
+      <Head head_x="25.3" head_y="414" rotation="0" head_enable="True" />
     </Slash>
     <Penetrate>
       <Direction>Side</Direction>
-      <Pivot pivot_x="207" pivot_y="-400" />
-      <Head head_x="-71.30009" head_y="312.8" rotation="0" head_enable="True" />
+      <Pivot pivot_x="386.3999" pivot_y="-388.4999" />
+      <Head head_x="-197.8" head_y="354.2" rotation="0" head_enable="True" />
     </Penetrate>
     <Hit>
       <Direction>Side</Direction>
-      <Pivot pivot_x="39.09999" pivot_y="-400" />
-      <Head head_x="-75.89999" head_y="301.3" rotation="0" head_enable="True" />
+      <Pivot pivot_x="135.4001" pivot_y="-400" />
+      <Head head_x="-6.9" head_y="379.5" rotation="-7" head_enable="True" />
     </Hit>
     <Move>
-      <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-131.1" head_y="299" rotation="9.27671" head_enable="True" />
+      <Direction>Side</Direction>
+      <Pivot pivot_x="0" pivot_y="-413.8" />
+      <Head head_x="-227.6999" head_y="351.9" rotation="-5.399995" head_enable="True" />
     </Move>
     <Fire>
       <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-9.2" head_y="386.4" rotation="-3.37335" head_enable="True" />
+      <Pivot pivot_x="32.2" pivot_y="-365.5" />
+      <Head head_x="6.899998" head_y="469.2" rotation="0" head_enable="True" />
     </Fire>
     <Aim>
       <Direction>Front</Direction>
-      <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="-4.599999" head_y="384.1" rotation="0" head_enable="True" />
+      <Pivot pivot_x="16.1" pivot_y="-377" />
+      <Head head_x="11.5" head_y="469.2" rotation="0" head_enable="True" />
     </Aim>
   </ClothInfo>
 </ModInfo>

@@ -4,7 +4,8 @@
   <Book ID="1">
     <Name>Starlight's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>1</Episode>
+    <BookIcon>Starlight</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>175</HP>
@@ -47,10 +48,11 @@
   <Book ID="2">
     <Name>Sandbag's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>1</Episode>
+    <BookIcon>Starlight</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>1</HP>
+      <HP>333</HP>
       <DeadLine>0</DeadLine>
       <Break>1</Break>
       <SpeedMin>1</SpeedMin>
@@ -81,7 +83,8 @@
   <Book ID="3">
     <Name>Demi's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>3</Episode>
+    <BookIcon>Starlight</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>160</HP>
@@ -122,7 +125,8 @@
   <Book ID="4">
     <Name>Rey's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>4</Episode>
+    <BookIcon>Starlight</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>150</HP>
@@ -163,7 +167,8 @@
   <Book ID="5">
     <Name>Noveau Starlight's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>5</Episode>
+    <BookIcon>StarlightTwo</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>320</HP>
@@ -195,7 +200,7 @@
     <CharacterSkin>EgoStarlightEnemy</CharacterSkin>
     <CharacterSkinType>Custom</CharacterSkinType>
     <SkinGender>N</SkinGender>
-    <Chapter>7</Chapter>
+    <Chapter>6</Chapter>
     <Episode>-1</Episode>
     <RangeType>Hybrid</RangeType>
     <NotEquip>false</NotEquip>
@@ -206,7 +211,8 @@
   <Book ID="6">
     <Name>Zerk's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <Episode>6</Episode>
+    <BookIcon>StarlightTwo</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>570</HP>
@@ -228,6 +234,7 @@
       <Passive>1</Passive>
       <Passive>8</Passive>
       <Passive>9</Passive>
+      <Passive>10</Passive>
       <Passive Pid="@origin">250106</Passive>
       <Passive Pid="@origin">250113</Passive>
       <Passive Pid="@origin">250016</Passive>
@@ -237,9 +244,132 @@
     <CharacterSkin>ZerkEnemy</CharacterSkin>
     <CharacterSkinType>Custom</CharacterSkinType>
     <SkinGender>N</SkinGender>
+    <Chapter>6</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="7">
+    <Name>Irah's Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightTwo</BookIcon>
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>999</HP>
+      <DeadLine>0</DeadLine>
+      <Break>666</Break>
+      <SpeedMin>3</SpeedMin>
+      <Speed>8</Speed>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Weak</SBResist>
+      <PBResist>Weak</PBResist>
+      <HBResist>Weak</HBResist>
+      <MaxPlayPoint>9</MaxPlayPoint>
+      <StartPlayPoint>9</StartPlayPoint>
+      <AddedStartDraw>9</AddedStartDraw>
+      <Passive>5</Passive>
+      <Passive>11</Passive>
+      <Passive>12</Passive>
+      <Passive Pid="@origin">250106</Passive>
+      <Passive Pid="@origin">250113</Passive>
+      <Passive Pid="@origin">230009</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>IrahEnemy</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>6</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>5</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="8">
+    <Name>Gionas' Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightThree</BookIcon>
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>270</HP>
+      <DeadLine>0</DeadLine>
+      <Break>170</Break>
+      <SpeedMin>3</SpeedMin>
+      <Speed>6</Speed>
+      <SpeedDiceNum>1</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Endure</HBResist>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">10004</Passive>
+      <Passive>13</Passive>
+      <Passive>14</Passive>
+      <Passive Pid="@origin">220001</Passive>
+      <Passive Pid="@origin">230008</Passive>
+      <Passive Pid="@origin">230024</Passive>
+      <Passive Pid="@origin">240101</Passive>
+      <Passive Pid="@origin">240015</Passive>
+      <Passive Pid="@origin">240016</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>GionasFull</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
     <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="9">
+    <Name>D.D.J.J's Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightThree</BookIcon>
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>210</HP>
+      <DeadLine>0</DeadLine>
+      <Break>120</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>6</Speed>
+      <SpeedDiceNum>1</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Endure</HBResist>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>3</AddedStartDraw>
+      <Passive Pid="@origin">10004</Passive>
+      <Passive>15</Passive>
+      <Passive>16</Passive>
+      <Passive>17</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>DDJJPlayer</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Melee</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>true</RandomFace>
     <SpeedDiceNum>1</SpeedDiceNum>

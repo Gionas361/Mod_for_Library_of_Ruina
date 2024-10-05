@@ -4,7 +4,7 @@
   <BookUse ID="1">
     <Name>Book of Starlight</Name>
     <TextId />
-    <BookIcon />
+    <BookIcon>Starlight</BookIcon>
     <Chapter>6</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000001</DropItem>
@@ -13,7 +13,7 @@
   <BookUse ID="2">
     <Name>Book of Demi</Name>
     <TextId />
-    <BookIcon />
+    <BookIcon>Starlight</BookIcon>
     <Chapter>6</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000003</DropItem>
@@ -21,7 +21,7 @@
   <BookUse ID="3">
     <Name>Book of Rey</Name>
     <TextId />
-    <BookIcon />
+    <BookIcon>Starlight</BookIcon>
     <Chapter>6</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000004</DropItem>
@@ -29,17 +29,41 @@
   <BookUse ID="4">
     <Name>Book of Noveau Starlight</Name>
     <TextId />
-    <BookIcon />
-    <Chapter>7</Chapter>
+    <BookIcon>StarlightTwo</BookIcon>
+    <Chapter>6</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000005</DropItem>
   </BookUse>
   <BookUse ID="5">
     <Name>Book of Zerk</Name>
     <TextId />
-    <BookIcon />
-    <Chapter>7</Chapter>
+    <BookIcon>StarlightTwo</BookIcon>
+    <Chapter>6</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000006</DropItem>
+  </BookUse>
+  <BookUse ID="6">
+    <Name>Book of Irah</Name>
+    <TextId />
+    <BookIcon>StarlightTwo</BookIcon>
+    <Chapter>6</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000007</DropItem>
+  </BookUse>
+  <BookUse ID="7">
+    <Name>Book of Gionas</Name>
+    <TextId />
+    <BookIcon>StarlightThree</BookIcon>
+    <Chapter>6</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000008</DropItem>
+  </BookUse>
+  <BookUse ID="8">
+    <Name>Book of DDJJ</Name>
+    <TextId />
+    <BookIcon>StarlightThree</BookIcon>
+    <Chapter>6</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000009</DropItem>
   </BookUse>
 </BookUseXmlRoot>

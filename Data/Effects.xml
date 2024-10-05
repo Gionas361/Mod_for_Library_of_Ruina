@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <effectTextList>
+    <BattleEffectText ID="BloodOfIrah">
+      <Name>Blood</Name>
+      <Desc>Blood doesn't do anything Passively. It's utilized by some cards in Irah's deck and his Passive Ability.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="BloodOfIrahUniqueBuff">
+      <Name>Solified Blood</Name>
+      <Desc>Gain {0} Haste, Power, Protection, Light and Draw {0} additional Page at the end of the Scene. (Up to 3)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="ManaStack">
+      <Name>Mana Stack</Name>
+      <Desc>It increases when a Page is used. It is utilized by some cards in Zerk's deck.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="HuntingNotes">
+      <Name>Hunting Notes</Name>
+      <Desc>Effect that keeps track of the Note (Page #{0}), last used in the correct order. (Current Symphony: {0})</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="DreamOfGionas">
+      <Name>Dreams</Name>
+      <Desc>Dreams are volatile, and often go in unpredictable ways. Thus, you have a 25% chance of dealing a "Crit" (deals DMG as if it were Fatal). When having 15 or more dreams, on round start, at a 25% chance that the librarian obtains a random buff or debuff, this continues until nothing is obtained. This will consume 12 dreams regardless of how many buffs or debuffs were applied. Librarian forgets 2 Dreams per turn.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="DreamsToRemember">
+      <Name>Dreams To Remember</Name>
+      <Desc>Gain {0} Power.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="NightmareOfGionas">
+      <Name>Nightmares</Name>
+      <Desc>Gain 1 Strength, 2 Fragile, 2 Disarm per Nightmare. Gain 2 Haste. Set Break resistances to Fatal. On Round End, take Break DMG equal to Nightmare. On Taking Damage and on Round End lose 1 Nightmare.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="DDJJBurst">
+      <Name>Pitiful Empathy</Name>
+      <Desc>Gain 1 Strenght and 3 Damage Up per Stack. If only has 1 Stack, Link Up with another character. Take half the Damage of the other. If any is Staggered or Killed both are. If there is no other character, set Stack to 3.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="DDJJsStardust">
+      <Name>Stardust</Name>
+      <Desc>If hit by a Page that Burst's Stardust, deal Stagger DMG based on the Amount and halve the stack. On Hit lose 1~2 stacks of Stardust. For every 20 Stacks of Stardust Dice gain 1 Power. If bursted at 30 or more deal half the stack as Damage (This is a true Burst).</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="DDJJEgoAwake">
+      <Name>E.G.O</Name>
+      <Desc>Max HP increases to 300. Lose 5 HP [On Use]-sing a Page. Inflict 1 Stardust [On Hit]. Lose 10 HP and gain 2 Power at Scene End.</Desc>
+    </BattleEffectText>
+  </effectTextList>
+</BattleEffectTextRoot>

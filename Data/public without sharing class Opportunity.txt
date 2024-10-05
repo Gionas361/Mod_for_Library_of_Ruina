@@ -1,0 +1,154 @@
+public without sharing class OpportunityTriggerHandler implements ITrigger {
+Set<Id> oppsGlobalValueCalc = new Set<Id>();
+Set<String> globalParentAccounts = new Set<String>();
+//Set<String> oldParentKeys = new Set<String>();
+Map<String, String> oldAcctGlobalParents = new Map<String, String>();
+// For an update trigger, userMap will store the new owner information
+Map<Id, User> userMap = new Map<Id, User>();
+// When an opp is inserted, stamp the # of MQLs on the account to the "MQL Influence" Field on the opp
+// This map stores the parent acct IDs and the account record
+Map<Id, Account> accountMqlMap = new Map<Id, Account>();
+User runningUser = new User();
+    public void bulkBefore(){
+         //Consider leaving in delete portion if we decide this is necessary functionality
+        // If(Trigger.isUpdate || Trigger.isDelete){
+        If(Trigger.isUpdate){    
+            for(Opportunity o : [SELECT AccountId, Account.Top_Level_Account_ID__c 
+                                 FROM Opportunity 
+                                 WHERE Id in : Trigger.new 
+                                 AND Account.Top_Level_Account_ID__c != NULL
+                                 AND Stage_Grouping__c = '2 - Won']){
+                if(!oldAcctGlobalParents.containsKey(o.AccountId)){
+                    oldAcctGlobalParents.put(o.AccountId , o.Account.Top_Level_Account_ID__c);
+                }
+            }
+        }
+        // Create a map of the user Id to the user record - unfortunately we have to get everyone in the world
+        // on insert since we don't have the ID until the trigger actually get's down in there... crazy I know.
+        // If insert, map of creator ID to user sObject
+        // If update, map of the new owner ID to the user sObject
+        If(Trigger.isInsert && Trigger.IsBefore){
+            String runningUserId = UserInfo.getUserId();
+            runningUser = ([SELECT Id, UserRoleId, UserRole.Name, Division FROM User WHERE Id = :runningUserId LIMIT 1]);
+            //Make a set of accounts which we will use to query and build our map
+            Set<Id> acctIds = new Set<Id>();
+            //Get the count of mqls on the account related to the opp...
+            for(sObject opp : Trigger.New){
+                Opportunity o = (Opportunity)opp;
+                acctIds.add(o.AccountId);
+            }
+            //Make a map of accounts to store our query results in
+            List<Account> parentAccts = [SELECT Id, Recent_MQL__c FROM Account WHERE Id IN: acctIds];
+            accountMqlMap.PutAll(parentAccts);
+        }
+        If(Trigger.isUpdate && Trigger.IsBefore){
+        Set<Id> userIds = new Set<Id>();    
+            for(sObject sob : Trigger.New){
+   
+                Opportunity o = (Opportunity)sob;
+                userIds.Add(o.OwnerId);
+            }
+            userMap.putAll([SELECT Id, UserRoleId, UserRole.Name, Division FROM User WHERE Id IN : userIds]);
+        }
+    }
+    public void bulkAfter(){
+    
+    }
+    public void beforeInsert(SObject so){
+        Opportunity opp = (Opportunity)so;      
+        // stamp the info we need to stamp
+        opp.Owner_Division__c = runningUser.Division;
+        opp.Creator_Role_Static__c  = runningUser.UserRole.Name;
+        opp.Creator_Division__c = runningUser.Division;
+        opp.Owner_Role__c = runningUser.UserRole.Name;
+        if(accountMqlMap.containsKey(opp.AccountId)){
+            opp.MQL_Influence__c = accountMqlMap.Get(Opp.AccountId).Recent_MQL__c;
+        }
+           
+    }
+    public void beforeUpdate(SObject oldSo, SObject so){ 
+        Opportunity currentOpp = (Opportunity)so;
+        Opportunity oldOpp = (Opportunity)oldso;
+    /*JM - REmoved HHH field - Products_Updated__c
+        if(currentOpp.Products_Updated__c 
+            || (currentOpp.Stage_Grouping__c != oldOpp.Stage_Grouping__c 
+                && (currentOpp.Stage_Grouping__c == '2 - Won' || oldOpp.Stage_Grouping__c == '2 - Won'))){
+        
+            oppsGlobalValueCalc.add(currentOpp.Id);
+            currentOpp.Products_Updated__c = FALSE; 
+        }
+        */
+        if(currentOpp.AccountId != oldOpp.AccountId && (currentOpp.Stage_Grouping__c == '2 - Won' || oldOpp.Stage_Grouping__c == '2 - Won')){
+            globalParentAccounts.add(oldAcctGlobalParents.get(oldOpp.AccountId));
+            oppsGlobalValueCalc.add(currentOpp.Id);
+            //system.debug('Old global key' + oldParentKeys + 'oppsGlobalValueCalc ______' + oppsGlobalValueCalc);
+        }
+        // Using this to stamp the "Moved to late stage" field whenever the forecast category changes from "Pipeline" to anything else still open
+        /*JM - removed HHH Field - Moved_To_Late_Stage__c
+        if('Pre-Qualified, Needs Assessment, Solution Development'.Contains(oldOpp.StageName)  && 'Value, Negotiation/Proposal, Contract, Won, Deployed, Trial'.Contains(currentOpp.StageName) && currentOpp.Moved_To_Late_Stage__c == NULL){
+            currentOpp.Moved_To_Late_Stage__c = Date.Today();
+        }
+        */
+        // See if we need to change the owner role / division stamped information
+        if(currentOpp.OwnerId != oldOpp.OwnerId){
+            // retrieve the information about the creator that we need to stamp
+            User owner = userMap.Get(currentOpp.OwnerId);
+            // stamp the info we need to stamp
+    
+            currentOpp.Owner_Division__c = owner.Division;
+            currentOpp.Owner_Role__c = owner.UserRole.Name;
+        }
+    }    
+  
+    public void beforeDelete(SObject so){ 
+        /* This needs to be revisited, however we really should not be deleting won opps
+        
+        Opportunity currentOpp = (Opportunity)so;
+        if(currentOpp.Stage_Grouping__c == '2 - Won'){
+            globalParentAccounts.add(oldAcctGlobalParents.get(currentOpp.AccountId));
+            
+        }
+        */
+          
+    }
+    public void afterInsert(SObject so){
+        Opportunity currentOpp = (Opportunity)so;  
+        if(currentOpp.Stage_Grouping__c == '2 - Won'){
+            oppsGlobalValueCalc.add(currentOpp.Id);
+        } 
+    }        
+    public void afterUpdate(SObject oldSo, SObject so){
+    }
+ 
+    public void afterDelete(SObject so){ 
+    }
+    public void andFinally(){
+    String globalParentAccountsJSON = '';
+    String oppsGlobalValueCalcJSON = '';
+        if(oppsGlobalValueCalc.size() > 0){
+            oppsGlobalValueCalcJSON = JSON.serialize(oppsGlobalValueCalc);
+        }    
+        if(globalParentAccounts.size() > 0){
+            globalParentAccountsJSON = JSON.serialize(globalParentAccounts);
+        }
+        if(!String.isblank(oppsGlobalValueCalcJSON) || !String.isblank(globalParentAccountsJSON)){
+            sendGlobalParents(globalParentAccountsJSON , oppsGlobalValueCalcJSON);
+        }
+    }
+    @future
+    public static void sendGlobalParents(String globalParentSetJSON, String oppsToQuery){
+        Set<String> globalParents = new Set<String>();
+        if(!String.isblank(globalParentSetJSON)){
+            globalParents.addAll((Set<String>)JSON.deserialize(globalParentSetJSON, Set<String>.class));
+        }
+        if(!String.isBlank(oppsToQuery)){
+            Set<String> oppIdSet = (Set<String>)JSON.deserialize(oppsToQuery, Set<String>.class);
+            for(Opportunity opp : [SELECT Id, Account.Top_Level_Account_ID__c FROM Opportunity WHERE Id in : oppIdSet]){
+                //if(!String.isBlank(opp.Account.Top_Level_Account_ID__c)){
+                    globalParents.add(opp.Account.Top_Level_Account_ID__c);               
+            }
+        }
+        
+        AccountRollupCalc.AccountRollups(globalParents);
+    }
+}

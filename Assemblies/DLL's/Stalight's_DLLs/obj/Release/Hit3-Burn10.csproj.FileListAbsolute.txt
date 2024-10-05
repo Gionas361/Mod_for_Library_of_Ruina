@@ -1,0 +1,116 @@
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Hit3-Burn10.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Hit3-Burn10.pdb
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Assembly-CSharp.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.CoreModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.UI.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.PhysicsModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.ParticleSystemModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.AudioModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Unity.TextMeshPro.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.UIModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.VideoModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.AnimationModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.Physics2DModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.IMGUIModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.WindModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\spine-unity.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.AssetBundleModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.TextRenderingModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.SpriteMaskModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.UnityWebRequestModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.TilemapModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Facepunch.Steamworks.Win64.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\XGamingRuntime.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Assembly-CSharp-firstpass.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.InputLegacyModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Unity.Postprocessing.Runtime.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Ookii.Dialogs.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.ImageConversionModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\Unity.Mathematics.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.GridModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.SharedInternalsModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.TextCoreModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.VRModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.XRModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\bin\Release\UnityEngine.SubsystemsModule.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CoreCompileInputs.cache
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CopyComplete
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.dll
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.pdb
+G:\Top-Star-LoR\NormalInvitation\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\bin\Release\Hit3-Burn10.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\bin\Release\Hit3-Burn10.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CopyComplete
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\@Starlight_DLLs.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\@Starlight_DLLs.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\0Harmony.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\BaseMod.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\LorIdExtensions.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\Mono.Cecil.Mdb.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\Mono.Cecil.Pdb.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\Mono.Cecil.Rocks.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\MonoMod.Common.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\MonoMod.RuntimeDetour.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\MyJsonTool.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\NAudio.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\Unity.TextMeshPro.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.AssetBundleModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.AudioModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.CoreModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.ImageConversionModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.UIModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\MonoMod.Utils.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.UI.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.PhysicsModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.AnimationModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.Physics2DModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.IMGUIModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.TextRenderingModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.InputLegacyModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.TextCoreModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\bin\Release\UnityEngine.SharedInternalsModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\obj\Release\Hit3-Burn10.csproj.CopyComplete
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\obj\Release\@Starlight_DLLs.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Hit3-Burn10\obj\Release\@Starlight_DLLs.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\@Starlight_DLLs.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\@Starlight_DLLs.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\0Harmony.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\BaseMod.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\LorIdExtensions.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\Mono.Cecil.Mdb.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\Mono.Cecil.Pdb.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\Mono.Cecil.Rocks.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\MonoMod.Common.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\MonoMod.RuntimeDetour.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\MyJsonTool.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\NAudio.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\Unity.TextMeshPro.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.AssetBundleModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.AudioModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.CoreModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.ImageConversionModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.UIModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\MonoMod.Utils.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.UI.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.PhysicsModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.AnimationModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.Physics2DModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.IMGUIModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.TextRenderingModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.InputLegacyModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.TextCoreModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\UnityEngine.SharedInternalsModule.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\obj\Release\Hit3-Burn10.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\obj\Release\Hit3-Burn10.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\obj\Release\Hit3-Burn10.csproj.CopyComplete
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\obj\Release\@Starlight_DLLs.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\obj\Release\@Starlight_DLLs.pdb
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\1FrameworkPriorityInjector.dll
+G:\SteamLibrary\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods\Starlight\Assemblies\DLL's\Stalight's_DLLs\bin\Release\fxy_VFXAdder.dll

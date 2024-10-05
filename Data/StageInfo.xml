@@ -2,7 +2,7 @@
 <StageXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
   <Stage id="1">
-    <Name>The Top Star</Name>
+    <Name ID="1">The Top Star</Name>
     <Wave>
       <Unit>2</Unit>
       <Unit>2</Unit>
@@ -34,21 +34,23 @@
     </Wave>
     <StageType>Invitation</StageType>
     <FloorNum>1</FloorNum>
-    <Chapter>6</Chapter>
-    <Invitation Combine="BookValue">
-      <Value>1</Value>
-      <Num>1</Num>
+    <Chapter>1</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book Pid="@origin">31</Book>
+      <Value>0</Value>
+      <Num>0</Num>
     </Invitation>
     <Condition>
       <Level>3</Level>
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>Starlight</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="2">
-    <Name>Starmy</Name>
+    <Name ID="2">Starmy</Name>
     <Wave>
       <Unit>1</Unit>
       <Unit>1</Unit>
@@ -74,11 +76,12 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>Starlight</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="3">
-    <Name>World Jumping Shadow</Name>
+    <Name ID="3">World Jumping Shadow</Name>
     <Wave>
       <Unit>3</Unit>
       <Formation>41</Formation>
@@ -99,11 +102,12 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>Starlight</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="4">
-    <Name>The Monster Hunter</Name>
+    <Name ID="4">The Monster Hunter</Name>
     <Wave>
       <Unit>4</Unit>
       <Formation>41</Formation>
@@ -124,11 +128,12 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>Starlight</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="5">
-    <Name>The Big Three</Name>
+    <Name ID="5">The Big Three</Name>
     <Wave>
       <Unit>1</Unit>
       <Unit>3</Unit>
@@ -140,7 +145,7 @@
     </Wave>
     <StageType>Invitation</StageType>
     <FloorNum>1</FloorNum>
-    <Chapter>7</Chapter>
+    <Chapter>6</Chapter>
     <Invitation Combine="BookRecipe">
       <Book>1</Book>
       <Book>2</Book>
@@ -153,11 +158,12 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>Starlight</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="6">
-    <Name>The Final Shine</Name>
+    <Name ID="6">The Final Shine</Name>
     <Wave>
       <Unit>5</Unit>
       <Formation>41</Formation>
@@ -167,7 +173,7 @@
     </Wave>
     <StageType>Invitation</StageType>
     <FloorNum>1</FloorNum>
-    <Chapter>7</Chapter>
+    <Chapter>6</Chapter>
     <Invitation Combine="BookRecipe">
       <Book>3</Book>
     </Invitation>
@@ -176,11 +182,12 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>StarlightTwo</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>
   <Stage id="7">
-    <Name>The Young Dragon</Name>
+    <Name ID="7">The Young Dragon</Name>
     <Wave>
       <Unit>6</Unit>
       <Formation>41</Formation>
@@ -190,7 +197,7 @@
     </Wave>
     <StageType>Invitation</StageType>
     <FloorNum>1</FloorNum>
-    <Chapter>7</Chapter>
+    <Chapter>6</Chapter>
     <Invitation Combine="BookRecipe">
       <Book>4</Book>
     </Invitation>
@@ -199,6 +206,79 @@
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>StarlightTwo</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="8">
+    <Name ID="8">The First</Name>
+    <Wave>
+      <Unit>7</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>6</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>5</Book>
+    </Invitation>
+    <Condition>
+      <Level>2</Level>
+    </Condition>
+    <Story Condition="Start" />
+    <Story Condition="End" />
+    <StoryType>StarlightTwo</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="9">
+    <Name ID="9">The Dreamer</Name>
+    <Wave>
+      <Unit>8</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>1</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>6</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>6</Book>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start" />
+    <Story Condition="End" />
+    <StoryType>StarlightThree</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="10">
+    <Name ID="10">The Eclosing One</Name>
+    <Wave>
+      <Unit>9</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>1</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>6</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>7</Book>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start" />
+    <Story Condition="End" />
+    <StoryType>StarlightThree</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>
   </Stage>

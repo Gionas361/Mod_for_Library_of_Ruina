@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Irah</Name>
+    <Default>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="29.89999" pivot_y="-402.3" />
+      <Head head_x="-4.600006" head_y="499.1" rotation="-3.599997" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="34.5" pivot_y="-404.5999" />
+      <Head head_x="-9.199997" head_y="505.9998" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="34.5" pivot_y="-400" />
+      <Head head_x="-6.899998" head_y="492.1999" rotation="-7.200004" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="39.09999" pivot_y="-395.4001" />
+      <Head head_x="-13.8" head_y="487.6" rotation="0" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="22.99999" head_y="489.9" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="193.2" pivot_y="-393.1" />
+      <Head head_x="-4.600006" head_y="506.0" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="34.49999" pivot_y="-404.6" />
+      <Head head_x="-39.1" head_y="404.8" rotation="1.799998" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-34.49987" pivot_y="-427.5999" />
+      <Head head_x="-184" head_y="384.1" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="32.2" pivot_y="-400" />
+      <Head head_x="-6.899998" head_y="506" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="34.5" pivot_y="-404.6" />
+      <Head head_x="-9.199997" head_y="508.3" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

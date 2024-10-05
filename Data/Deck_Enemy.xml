@@ -57,4 +57,37 @@
     <Card>38</Card>
     <Card>39</Card>
   </Deck>
+  <Deck ID="7">
+    <Card>50</Card>
+    <Card>41</Card>
+    <Card>42</Card>
+    <Card>43</Card>
+    <Card>44</Card>
+    <Card>45</Card>
+    <Card>46</Card>
+    <Card>47</Card>
+    <Card>48</Card>
+  </Deck>
+  <Deck ID="8">
+    <Card>54</Card>
+    <Card>55</Card>
+    <Card>56</Card>
+    <Card>57</Card>
+    <Card>58</Card>
+    <Card>59</Card>
+    <Card>60</Card>
+    <Card>61</Card>
+    <Card>62</Card>
+  </Deck>
+  <Deck ID="9">
+    <Card>63</Card>
+    <Card>64</Card>
+    <Card>65</Card>
+    <Card>66</Card>
+    <Card>67</Card>
+    <Card>68</Card>
+    <Card>69</Card>
+    <Card>70</Card>
+    <Card>71</Card>
+  </Deck>
 </DeckXmlRoot>

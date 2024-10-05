@@ -60,7 +60,7 @@
     <Script>CostDownPerObjetdArt</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="5" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="Infinita_Recycle" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="5" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="Infinita_Recycle" ActionScript="" Desc="" /> <!-- EffectRes="J_Z" -->
       <Behaviour Min="1" Dice="1" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="DebuffGalore" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>6</Chapter>
@@ -614,6 +614,7 @@
     <TextId>-1</TextId>
     <Artwork>5th_Symphony.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>ExhaustOnUse</Option>
     <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>5thSymphony</Script>
     <ScriptDesc />
@@ -737,7 +738,7 @@
     <Artwork>Dragon_Roar.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="8" Affection="One" EmotionLimit="0" />
-    <Script />
+    <Script>DragonRoarStaggerCard</Script>
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="22" Dice="30" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="" Script="DragonRoarStagger" ActionScript="" Desc="" />
@@ -964,6 +965,688 @@
     <MapChange />
     <Priority>10</Priority>
     <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="41">
+    <Name>Blood Barrage</Name>
+    <TextId>-1</TextId>
+    <Artwork>Blood_Barrage.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Far" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="QueenOfHatred_SnakeFarAtk" Script="BloodBarrage" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="QueenOfHatred_SnakeFarAtk" Script="BloodBarrage" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="QueenOfHatred_SnakeFarAtk" Script="BloodBarrage" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>6</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="42">
+    <Name>Decapitation</Name>
+    <TextId>-1</TextId>
+    <Artwork>Decapitation.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="11" Dice="21" Type="Atk" Detail="Slash" Motion="Z" MotionDefault="N" EffectRes="Greta_J" Script="Decapitation" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>10</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="43">
+    <Name>Blood Wall</Name>
+    <TextId>-1</TextId>
+    <Artwork>Blood_Wall.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="10" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_RolrangEndMain_Bullet" Script="BloodWall" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="10" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_RolrangEndMain_Bullet" Script="BloodWall" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="44">
+    <Name>Bloody Enhancement</Name>
+    <TextId>-1</TextId>
+    <Artwork>Bloody_Enhancement.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>BloodyEnhancementCard</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_Sing_S" Script="BloodyEnhancement" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_Sing_S" Script="BloodyEnhancement" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_Sing_S" Script="BloodyEnhancement" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>12</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="45">
+    <Name>Swipe</Name>
+    <TextId>-1</TextId>
+    <Artwork>Swipe.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Sing_S2" Script="Swipe" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Sing_S2" Script="Swipe" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>7</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="46">
+    <Name>Screech</Name>
+    <TextId>-1</TextId>
+    <Artwork>Screech.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>EgoPersonal</Option>
+    <Spec Range="FarAreaEach" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>ScreechCard</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="10" Dice="15" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="EGO_BigBadWolf_InstinctHowl" Script="Screech" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>5</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>6</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="47">
+    <Name>Blood Sac Burst</Name>
+    <TextId>-1</TextId>
+    <Artwork>Blood_Sac_Burst.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="12" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_RolrangEndMain_BulletExplo" Script="BloodSacBurst" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>18</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="48">
+    <Name>Vampire Bite</Name>
+    <TextId>-1</TextId>
+    <Artwork>Vampire_Bite.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistGreta_Bite" Script="VampireBite" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistGreta_Bite_S5" Script="VampireBite" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>8</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="49">
+    <Name>Slumber</Name>
+    <TextId>-1</TextId>
+    <Artwork>Slumber.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>SlumberCard</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="12" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="FX_Mon_RolrangEndAll_UnATK2" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>15</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="50">
+    <Name>Claw Fang</Name>
+    <TextId>-1</TextId>
+    <Artwork>Claw_Fang.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="11" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Claw_Slash_Down" Script="Swipe" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="15" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistGreta_Bite_S5" Script="ClawFang" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>10</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="51">
+    <Name>Vampire's Rampage</Name>
+    <TextId>-1</TextId>
+    <Artwork>Vampire's_Rampage.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>EgoPersonal</Option>
+    <Spec Range="Near" Cost="9" Affection="One" EmotionLimit="0" />
+    <Script>VampiresRampageCard</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="20" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="FX_Mon_RolrangEndMain_BulletExplo" Script="VampiresRampage" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="20" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Claw_Slash_Down" Script="VampiresRampage" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="20" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistGreta_Bite_S5" Script="VampiresRampage" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>6</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="52">
+    <Name>Nightmare</Name>
+    <TextId>-1</TextId>
+    <Artwork>Nightmare.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>EgoPersonal</Option>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>UseGain5Dream</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="3" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Shadow_Z" Script="5DreamTo5NightmareReuse" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>1</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="53">
+    <Name>Fear Dream</Name>
+    <TextId>-1</TextId>
+    <Artwork>Fear_Dream.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>UseGain1Nightmare</Script>
+    <ScriptDesc />
+    <BehaviourList />
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="54">
+    <Name>Clouded Swipe</Name>
+    <TextId>-1</TextId>
+    <Artwork>Clouded_Swipe.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>1Dream1Light</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="workshop_H" Script="HitGain1Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="55">
+    <Name>Prepared Mind</Name>
+    <TextId>-1</TextId>
+    <Artwork>Prepared_Mind.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>2LightDraw1Page</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="9" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="workshop_H" Script="HitGain2Dream" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="9" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="workshop_H" Script="HitGain1Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="56">
+    <Name>Comfy Dreams</Name>
+    <TextId>-1</TextId>
+    <Artwork>ComfyDreams.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>Draw3Page</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="YanLibrarian_G" Script="WinGain2Dream" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="workshop_J" Script="HitGain2Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="57">
+    <Name>Heavy Sleeper</Name>
+    <TextId>-1</TextId>
+    <Artwork>Heavy_Sleeper.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>UseGain1Dream</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="workshop_J" Script="HitGain2Dream" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="12" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="workshop_J" Script="HitGain2Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="58">
+    <Name>Blurry Strike</Name>
+    <TextId>-1</TextId>
+    <Artwork>Blurry_Strike.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>3DreamOnesidedHit1Dream</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="BlackSilence_Z" Script="HitGain1Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="59">
+    <Name>Quick Thinking</Name>
+    <TextId>-1</TextId>
+    <Artwork>Quick_Thinking.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>Gain1HasteLightDream</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="WinGain2Dream" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="workshop_H" Script="HitGain1Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="60">
+    <Name>Deep Sleep</Name>
+    <TextId>-1</TextId>
+    <Artwork>Deep_Sleep.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>Immobalized7Dreams6Light</Script>
+    <ScriptDesc />
+    <BehaviourList />
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="61">
+    <Name>Sharp Mind</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sharp_Mind.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>15DreamRaiseMinimum2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="4" Type="Atk" Detail="Slash" Motion="J" MotionDefault="J" EffectRes="" Script="Roll4" ActionScript="GionasSharpSword" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="62">
+    <Name>Dreamt Assault</Name>
+    <TextId>-1</TextId>
+    <Artwork>Dreamt_Assault.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Lose7Dream3PowerOr3LessPower</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="17" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="ddjjAuraEffect" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="15" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="dreamPierce" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="13" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="BlackSilence_Z" Script="HitGain1Dream" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="63">
+    <Name>StarK-Combo</Name>
+    <TextId>-1</TextId>
+    <Artwork>StarK-Combo.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <BehaviourList>
+      <Behaviour Min="5" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="J" EffectRes="" Script="OnHitGive2Stardust" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="10" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="Z" EffectRes="" Script="OnHitGive2Stardust" ActionScript="DDJJPierce" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="64">
+    <Name>Chain Trigger</Name>
+    <TextId>-1</TextId>
+    <Artwork>Chain-Trigger.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <BehaviourList>
+      <Behaviour Min="7" Dice="9" Type="Atk" Detail="Hit" Motion="H" MotionDefault="H" EffectRes="" Script="OnHitBurst" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="65">
+    <Name>3</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="66">
+    <Name>4</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="67">
+    <Name>5</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="68">
+    <Name>6</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="69">
+    <Name>7</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="70">
+    <Name>8</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="71">
+    <Name>9</Name>
+    <TextId>-1</TextId>
+    <Artwork></Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Instance" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="72">
+    <Name>Culmination</Name>
+    <TextId>-1</TextId>
+    <Artwork>Culmination.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="FarArea" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>LoseEgoDDJJ</Script>
+    <BehaviourList>
+      <Behaviour Min="32" Dice="45" Type="Atk" Detail="Hit" Motion="H" MotionDefault="H" EffectRes="" Script="OnHitBurst" ActionScript="ButterFlyCulmination" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <Priority>1</Priority>
     <Category>None</Category>
     <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
     <MaxNum>150</MaxNum>

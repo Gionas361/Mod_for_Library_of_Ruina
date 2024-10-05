@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Gionas</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="45.99999" pivot_y="-400" />
+      <Head head_x="-16.09999" head_y="441.6" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="45.99999" pivot_y="-404.6" />
+      <Head head_x="-9.199997" head_y="446.2" rotation="-6.687927" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="85.09994" pivot_y="-402.3" />
+      <Head head_x="80.49996" head_y="358.8" rotation="-10.03194" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="50.59999" pivot_y="-400" />
+      <Head head_x="-52.89999" head_y="427.8" rotation="12.53991" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="52.89999" pivot_y="-409.2" />
+      <Head head_x="-147.2" head_y="365.7" rotation="0" head_enable="True" />
+    </Slash>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="52.89999" pivot_y="-397.7" />
+      <Head head_x="-16.10001" head_y="439.3" rotation="0" head_enable="True" />
+    </Hit>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="142.5999" pivot_y="-404.5999" />
+      <Head head_x="22.99998" head_y="361.1" rotation="-10.03194" head_enable="True" />
+    </Penetrate>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="11.5" pivot_y="-413.8" />
+      <Head head_x="-142.5999" head_y="356.5" rotation="-5.851936" head_enable="True" />
+    </Move>
+    <S1>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="45.99999" pivot_y="-400" />
+      <Head head_x="89.7" head_y="368.0" rotation="0" head_enable="True" />
+    </S1>
+    <S2>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="45.99999" pivot_y="-400" />
+      <Head head_x="-188.6" head_y="322.0" rotation="-6" head_enable="True" />
+    </S2>
+  </ClothInfo>
+</ModInfo>
