@@ -173,20 +173,35 @@ If you wish to download this Mod, [CLICK ME](https://steamcommunity.com/sharedfi
 * [Assemblies](Assemblies/):
     - Here are the DLL's of all the code in the mod. It also contains the Visual Studio 2019 projects with the code for ease of access.
 
-    - [Hit3-Burn10](Assemblies/Hit3-Burn10/Class1.cs):
-        - This contains the Page Passives and Dice Passives for Starlight and Noveau Starlight.
+    - [@DDJJ_DLLs](Assemblies/@DDJJ_DLL's/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **DDJJ**.
+    
+    - [@DDJJEGO_DLLs](Assemblies/@DDJJEGO_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **DDJJEGO**.
+    
+    - [@Jijikan_DLLs](Assemblies/@Jijikan_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Jijikan**.
 
-    - [Passive1](Assemblies/Passive1/Class1.cs):
-        - This contains the Key Page Passives for Starlight and Noveau Starlight.
+    - [@Yaren_DLLs](Assemblies/@Yaren_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Yaren**.
     
     - [Demi-DLLs](Assemblies/Demi-DLLs/Class1.cs):
-        - This contains the Key Page Passives, Page Passives and Dice Passives for Demi.
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Demi**.
     
-    - [RenDDLs](Assemblies/RenDLLs/Class1.cs):
-        - This contains the Key Page Passives, Page Passives and Dice Passives for Ren.
+    - [Gionas_DLLs](Assemblies/Gionas_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Gionas**.
     
-    - [Zerk_DLLs](Assemblies/Zerk_DLLs/Class1.cs):
-        - This contains the Key Page Passives, Page Passives and Dice Passives for Zerk.
+    - [Irah_DLLs](Assemblies/Irah_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Irah**.
 
+    - [RenDLLs](Assemblies/RenDLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Ren**.
+    
+    - [Starlight's_DLLs](Assemblies/Passive1/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Starlight** and **Noveau Starlight**.
+    
     - [VFXs_For_Everyone](Assemblies/VFXs_For_Everyone/Class1.cs):
         - Although empty, it was meant to have the Visual Effects for every attack of the characters, but it was too confusing and lacked enough documentation to do in a realistic time frame. Not only that the discord lacks message logs relating to this.
+
+    - [Zerk_DLLs](Assemblies/Zerk_DLLs/Class1.cs):
+        - This contains the Key Page Passives, Page Passives and Dice Passives for **Zerk**.
