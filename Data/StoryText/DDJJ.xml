@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScenarioRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Chapter ID="-1">
+    <Title />
+  </Chapter>
+  <Group>
+    <GroupName>group</GroupName>
+    <Episode>
+      <EpisodeName>Episode</EpisodeName>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="0" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Chat's been quiet lately...</Content>
+        </Dialog>
+        <Dialog ID="1" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>This is so unusual. They may not talk for a day, but not talking for two weeks?</Content>
+        </Dialog>
+        <Dialog ID="2" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>They haven't even answered my private messages. Much less the ones I sent in the chat.</Content>
+        </Dialog>
+        <Dialog ID="3" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>It couldn't be... they grew tired of me? Right?</Content>
+        </Dialog>
+        <Dialog ID="4" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Shit. What am I even thinking? If only they at least sent a message...</Content>
+        </Dialog>
+        <Dialog ID="5" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Hm? What is this doing here? A paper on my nightstand? Did my mother leave this here?</Content>
+        </Dialog>
+        <Dialog ID="6" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>An invitation to a Library?</Content>
+        </Dialog>
+        <Dialog ID="7" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>(Even if I did want to go, I wouldn't be able to. My body... is too weak to even get out of this house without needing serious help from my mother.)</Content>
+        </Dialog>
+        <Dialog ID="8" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>(Thinking about it, did mother leave this here? But... she couldn't have, she hasn't come into my room today. And I for sure know this wasn't here when I woke up.)</Content>
+        </Dialog>
+        <Dialog ID="9" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Let me see... what else is in this Invitation...</Content>
+        </Dialog>
+        <Dialog ID="10" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>What... what is... G□□va□□i and J□□n'□ name doing here...</Content>
+        </Dialog>
+        <Dialog ID="11" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Why are their names in here? What else is written on this damn piece of paper!?!?</Content>
+        </Dialog>
+        <Dialog ID="12" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>My life? If I risk my life... I can get back my friends? Were they kidnapped or something??? But... how would I...</Content>
+        </Dialog>
+        <Dialog ID="13" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>With this stagnant body of mine, that is slowly but surely leading me to my death. How am I? Supposed to save them...</Content>
+        </Dialog>
+        <Dialog ID="14" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="15" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="16" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Why the hell am I even thinking about this?... How am I HESITATING!?!?!?</Content>
+        </Dialog>
+        <Dialog ID="17" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>DO I VALUE OUR FRIENDSHIP SO LITTLE!?!?!?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="18" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>AM I SERIOUSLY GIVING UP WITHOUT EVEN TRYING???</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="19" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>AFTER SUFFERING WITH THIS SUFFOCATING BODY OF MINE THAT IS THREATENED BY A MEASLY COLD!!!</Content>
+        </Dialog>
+        <Dialog ID="20" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>DO I REALLY HAVE ANYTHING TO LOSE??? DO I SERIOUSLY HAVE ANYTHING MORE VALUABLE THAN THE FRIENDS THAT HAVE BEEN WITH ME FOR SO LONG????</Content>
+        </Dialog>
+        <Dialog ID="21" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>GET UP!!!</Content>
+        </Dialog>
+        <Dialog ID="22" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>BODY OF MINE THAT REFUSES TO DO ANYTHING FOR ME! THAT HAS HELD ME BACK FOR MY WHOLE LIFETIME!!!</Content>
+        </Dialog>
+        <Dialog ID="23" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>GET THE FUCK UP AND ALLOW ME TO DO SOMETHING BY MYSELF FOR ONCE!!!</Content>
+        </Dialog>
+        <Dialog ID="24" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="25" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>I don't have any weapons... not even my parents possess anything akin to either a gun or a sword...</Content>
+        </Dialog>
+        <Dialog ID="26" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>This... yeah... this will suffice...</Content>
+        </Dialog>
+        <Dialog ID="27" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Just sign here?</Content>
+        </Dialog>
+        <Dialog ID="28" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="29" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Teleportation? Is this... W Corp's doing?</Content>
+        </Dialog>
+        <Dialog ID="30" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>... What am I thinking? Even if it was... I can't do anything about it...</Content>
+        </Dialog>
+        <Dialog ID="31" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>If only that obsessed lunatic G□□va□□i was here, always obsessed with stars. If he were here he might know what the Library is...</Content>
+        </Dialog>
+        <Dialog ID="32" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>Enough thinking... I'll do this... I won't only do this. I'll overcome ANY OBSTACLE IN MY WAY AND SAVE THOSE TWO!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="33" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>NO MATTER WHAT!!!</Content>
+        </Dialog>
+        <Dialog ID="34" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>I'LL DO IT!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>His Room</PlaceName>
+        <Dialog ID="35" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Eclosing</Title>
+          <Content>I'll sacrifice even my life if it's necessary. I'LL DO IT!!!!</Content>
+        </Dialog>
+      </Place>
+    </Episode>
+  </Group>
+</ScenarioRoot>

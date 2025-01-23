@@ -41,5 +41,27 @@
       <Name>E.G.O</Name>
       <Desc>Max HP increases to 300. Lose 5 HP [On Use]-sing a Page. Inflict 1 Stardust [On Hit]. Lose 10 HP and gain 2 Power at Scene End.</Desc>
     </BattleEffectText>
+    <BattleEffectText ID="时间轴">
+      <Name>时间轴</Name>
+<Desc>Caution, these buffs can go into Negatives:
+ - Max Value: 10
+ - Min Value: -10
+ - Gain +1 Haste per 3 count.
+ - Gain +1 Power per 5 count.
+ - Gain +1 Max Roll Up per 2 count.
+</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="MaxRollUpTopStar">
+      <Name>Max Roll Up</Name>
+      <Desc>Increase the Max Roll of all dice by {0} for the duration of the Scene.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="BoilingPointYaren">
+      <Name>Boiling Point</Name>
+      <Desc>At the end of the Scene, turn any excess BP into burn. Once the total amount of burn applied is 30 or more, Yaren will Distort. ({0}/100)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="ChainReactionYaren">
+      <Name>Chain Reaction</Name>
+      <Desc>When the afflicted individual is hit, there’s a 33% chance they take the same amount of DMG that triggered this effect and reduce count by 1. Additionally there's a 25% chance of triggering Chain Reaction on another teammate afflicted with this same effect but with half the DMG. Lose 1 stack on Scene End.</Desc>
+    </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

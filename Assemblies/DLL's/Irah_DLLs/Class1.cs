@@ -649,11 +649,38 @@ public class PassiveAbility_IrahBloodManager : PassiveAbilityBase
 
 public class PassiveAbility_IrahBloodLight : PassiveAbilityBase
 {
+	/* This works btw
+	// Preparing variable.
+	public bool existsIrahAlready = false;
+
+	// Spawn another Unit.
+	public override void OnUnitCreated()
+    {
+		// This prevents infinite spawning of Irahs.
+		foreach (BattleUnitModel unit in BattleObjectManager.instance.GetAliveList(base.owner.faction))
+		{
+			BattleUnitBuf_BloodOfIrahUniqueBuff uniqueBuff = unit.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_BloodOfIrahUniqueBuff) as BattleUnitBuf_BloodOfIrahUniqueBuff;
+
+			if (uniqueBuff != null) { existsIrahAlready = true; }
+		}
+
+		// Spawns the Irahs.
+		if (BattleObjectManager.instance.GetAliveList(base.owner.faction).Count < 2 && !existsIrahAlready)
+		{
+			BattleUnitBuf_BloodOfIrahUniqueBuff.AddBuf(base.owner, 0);
+
+			Singleton<StageController>.Instance.GetCurrentWaveModel().SetFormationPosition(1, new Vector2Int(10, 9));
+			BattleUnitModel battleUnitModel2 = Singleton<StageController>.Instance.AddNewUnit(Faction.Enemy, new LorId("MyTopStar", 7), 1);
+		}
+	}
+	*/
+
+	// Recovers light and draw cards.
     public override void OnRoundStart()
     {
 		base.owner.cardSlotDetail.RecoverPlayPoint(20);
 		base.owner.allyCardDetail.DrawCards(20);
-    }
+	}
 }
 
 ///////////////////////////// Key Page Passives /////////////////////////////

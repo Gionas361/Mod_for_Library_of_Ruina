@@ -1,0 +1,60 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Jijikan's Page</Name>
+    <Default>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="64.39999" pivot_y="-312.6" />
+      <Head head_x="-4.599998" head_y="469.2" rotation="-10.41449" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="64.39999" pivot_y="-312.6002" />
+      <Head head_x="207.0001" head_y="448.5" rotation="-3.599997" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="64.39998" pivot_y="-312.6003" />
+      <Head head_x="206.9999" head_y="448.5" rotation="0" head_enable="True" />
+    </Evade>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-20.7" pivot_y="-312.5999" />
+      <Head head_x="0" head_y="480.7001" rotation="0" head_enable="True" />
+    </Slash>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="32.2" pivot_y="-312.6003" />
+      <Head head_x="-6.899998" head_y="480.7" rotation="0" head_enable="True" />
+    </Hit>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="257.6004" pivot_y="-312.6" />
+      <Head head_x="-151.8001" head_y="365.7" rotation="-8.400002" head_enable="True" />
+    </Penetrate>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="257.6" pivot_y="-312.5999" />
+      <Head head_x="-151.8001" head_y="365.6999" rotation="-7.800003" head_enable="True" />
+    </Move>
+    <Damaged>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="64.39999" pivot_y="-312.6001" />
+      <Head head_x="-6.900021" head_y="471.5" rotation="-7.800014" head_enable="True" />
+    </Damaged>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="True" />
+    </Aim>
+    <S1>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-23.0" pivot_y="-501.2" />
+      <Head head_x="-6.900021" head_y="611.8" rotation="74" head_enable="True" />
+    </S1>
+  </ClothInfo>
+</ModInfo>

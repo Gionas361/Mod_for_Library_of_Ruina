@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneEffect xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Dialogue ID="0">
+    <Bg Src="필립에고화" />
+    <Filter Src="Continue" />
+    <Bgm Src="keter_bgm_2" Effect="On" PrevBgm="Continue" />
+    <CharacterList>
+      <Character Name="신도1" Face="none" Pos="C" Emotion="NONE" Telling="false">
+        <Active Effect="NORMAL" Ratio="0" />
+      </Character>
+    </CharacterList>
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <Dialogue ID="16">
+    <Bg Src="None" />
+    <Filter Src="Vibration_weak" />
+    <Bgm Src="None" Effect="On" PrevBgm="Off" />
+    <CharacterList />
+    <EffectSound>ch8_BookDrop</EffectSound>
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <Dialogue ID="17">
+    <Bg Src="None" />
+    <Filter Src="PillarOfLight" />
+    <Bgm Src="keter_bgm_00" Effect="On" PrevBgm="FadeOut" />
+    <CharacterList />
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <Dialogue ID="33">
+    <Bg Src="필립에고화" />
+    <Filter Src="LightPole" />
+    <Bgm Src="None" Effect="On" PrevBgm="Continue" />
+    <CharacterList />
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <Dialogue ID="34">
+    <Bg Src="None" />
+    <Filter Src="Continue" />
+    <Bgm Src="None" Effect="On" PrevBgm="Continue" />
+    <CharacterList />
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <Dialogue ID="35">
+    <Bg Src="It_Awakens_Inside_DDJJ" />
+    <Filter Src="OffAll" />
+    <Bgm Src="None" Effect="On" PrevBgm="Continue" />
+    <CharacterList>
+      <Character Name="신도1" Face="none" Pos="C" Emotion="NONE" Telling="false">
+        <Deactive Effect="NORMAL" Ratio="0" />
+      </Character>
+    </CharacterList>
+    <BgChangeState>Default</BgChangeState>
+  </Dialogue>
+  <CG Src="None" />
+  <storyBranch>None</storyBranch>
+</SceneEffect>

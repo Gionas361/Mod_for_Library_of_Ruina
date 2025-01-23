@@ -247,12 +247,12 @@
     <FloorNum>1</FloorNum>
     <Chapter>6</Chapter>
     <Invitation Combine="BookRecipe">
-      <Book>6</Book>
+      <Book Pid="@origin">31</Book>
     </Invitation>
     <Condition>
       <Level>0</Level>
     </Condition>
-    <Story Condition="Start" />
+    <Story Condition="Start">Gionas</Story>
     <Story Condition="End" />
     <StoryType>StarlightThree</StoryType>
     <IsChapterLast>false</IsChapterLast>
@@ -271,13 +271,86 @@
     <FloorNum>1</FloorNum>
     <Chapter>6</Chapter>
     <Invitation Combine="BookRecipe">
-      <Book>7</Book>
+      <Book>11</Book>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">DDJJ</Story>
+    <Story Condition="End">DDJJ_ending</Story>
+    <StoryType>StarlightThree</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="11">
+    <Name ID="11">A Hole in Time</Name>
+    <Wave>
+      <Unit>10</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>3</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>7</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>1</Book>
+      <Book>4</Book>
     </Invitation>
     <Condition>
       <Level>0</Level>
     </Condition>
     <Story Condition="Start" />
     <Story Condition="End" />
+    <StoryType>StarlightFour</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="12">
+    <Name ID="12">The One who underwent Metamorphosis</Name>
+    <Wave>
+      <Unit>11</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>7</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>8</Book>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">DDJJ_EGO</Story>
+    <Story Condition="End"></Story>
+    <StoryType>StarlightDDJJ</StoryType>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="13">
+    <Name ID="13">Ka-boom...</Name>
+    <Wave>
+      <Unit>12</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>3</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>6</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book>7</Book>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start"></Story>
+    <Story Condition="End"></Story>
     <StoryType>StarlightThree</StoryType>
     <IsChapterLast>false</IsChapterLast>
     <invitationtype>false</invitationtype>

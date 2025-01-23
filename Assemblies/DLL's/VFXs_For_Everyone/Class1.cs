@@ -31,8 +31,7 @@ using System.Collections;
 using LOR_BattleUnit_UI;
 using Battle.CreatureEffect;
 using Unity.Mathematics;
-
-
+using UnityEngine.Assertions.Must;
 
 namespace VFXs_For_Everyone
 {
@@ -63,6 +62,10 @@ namespace VFXs_For_Everyone
 
             // TO ADD IMAGE EFFECTS YOU HAVE TO ADD EM ALL INDIVIDUALY.
             MyTopStarInitializer.AddEffect("Dream_Pierce", MyTopStarInitializer.path + "/CustomEffect/Dream_Pierce.png");
+            MyTopStarInitializer.AddEffect("boom", MyTopStarInitializer.path + "/CustomEffect/boom.png");
+            MyTopStarInitializer.AddEffect("Jijikan_Blunt", MyTopStarInitializer.path + "/CustomEffect/Jijikan_Blunt.png");
+            MyTopStarInitializer.AddEffect("Jijikan_Pierce", MyTopStarInitializer.path + "/CustomEffect/Jijikan_Pierce.png");
+            MyTopStarInitializer.AddEffect("Jijikan_Slash", MyTopStarInitializer.path + "/CustomEffect/Jijikan_Slash.png");
         }
         static MyTopStarInitializer()
         {
@@ -160,6 +163,115 @@ namespace VFXs_For_Everyone
         // Token: 0x0400004C RID: 76
         private float duration;
     }
+
+    public class DiceAttackEffect_BoomEffect : DiceAttackEffect
+    {
+        public Vector3 targetVector = new Vector3(0, 0, 0);
+
+        // Token: 0x060000F4 RID: 244 RVA: 0x00009F27 File Offset: 0x00008127
+        public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
+        {
+            this.duration = destroyTime;
+            this.spr.sprite = MyTopStarInitializer.EffectSprites["boom"];
+            base.Initialize(self, target, destroyTime);
+
+            // Getting position of opponent.
+            targetVector = target.transform.position;
+            this.spr.transform.position = targetVector;
+            base.gameObject.GetComponent<SpriteRenderer>().transform.position = targetVector;
+        }
+
+        // Token: 0x060000F5 RID: 245 RVA: 0x00009F54 File Offset: 0x00008154
+        protected override void Update()
+        {
+            base.Update();
+            this.duration -= Time.deltaTime;
+            base.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, this.duration * 2f);
+
+            if (UpdateOnce)
+            {
+                // Move effect to the target.
+                this.spr.transform.position = targetVector;
+                base.gameObject.GetComponent<SpriteRenderer>().transform.position = targetVector;
+
+                UpdateOnce = false;
+            }
+        }
+
+        // Token: 0x0400004C RID: 76
+        private float duration;
+
+        private bool UpdateOnce = true;
+    }
+
+    public class DiceAttackEffect_jijikanPierce : DiceAttackEffect
+    {
+        // Token: 0x060000F4 RID: 244 RVA: 0x00009F27 File Offset: 0x00008127
+        public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
+        {
+            this.duration = destroyTime;
+            this.spr.sprite = MyTopStarInitializer.EffectSprites["Jijikan_Pierce"];
+            base.Initialize(self, target, destroyTime);
+        }
+
+        // Token: 0x060000F5 RID: 245 RVA: 0x00009F54 File Offset: 0x00008154
+        protected override void Update()
+        {
+            base.Update();
+            this.duration -= Time.deltaTime;
+            base.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, this.duration * 2f);
+        }
+
+        // Token: 0x0400004C RID: 76
+        private float duration;
+    }
+
+    public class DiceAttackEffect_jijikanSlash : DiceAttackEffect
+    {
+        // Token: 0x060000F4 RID: 244 RVA: 0x00009F27 File Offset: 0x00008127
+        public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
+        {
+            this.duration = destroyTime;
+            this.spr.sprite = MyTopStarInitializer.EffectSprites["Jijikan_Slash"];
+            base.Initialize(self, target, destroyTime);
+        }
+
+        // Token: 0x060000F5 RID: 245 RVA: 0x00009F54 File Offset: 0x00008154
+        protected override void Update()
+        {
+            base.Update();
+            this.duration -= Time.deltaTime;
+            base.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, this.duration * 2f);
+        }
+
+        // Token: 0x0400004C RID: 76
+        private float duration;
+    }
+
+    public class DiceAttackEffect_jijikanBlunt : DiceAttackEffect
+    {
+        // Token: 0x060000F4 RID: 244 RVA: 0x00009F27 File Offset: 0x00008127
+        public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
+        {
+            this.duration = destroyTime;
+            this.spr.sprite = MyTopStarInitializer.EffectSprites["Jijikan_Blunt"];
+            base.Initialize(self, target, destroyTime);
+        }
+
+        // Token: 0x060000F5 RID: 245 RVA: 0x00009F54 File Offset: 0x00008154
+        protected override void Update()
+        {
+            base.Update();
+            this.duration -= Time.deltaTime;
+            base.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, this.duration * 2f);
+        }
+
+        // Token: 0x0400004C RID: 76
+        private float duration;
+    }
+
+
+
 
     public class DiceAttackEffect_ddjjAuraEffect : DiceAttackEffect
     {

@@ -254,11 +254,11 @@ namespace DDJJ_DLL_s
             {
 				BattleUnitBuf_DDJJsStardust dDJJsStardustEffect = unit.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_DDJJsStardust) as BattleUnitBuf_DDJJsStardust;
 
-				dDJJsStardustEffect.BurstStardust(burster);
+				dDJJsStardustEffect.BurstStardust(unit, burster);
 			}
 		}
 
-		public void BurstStardust(BattleUnitModel burster)
+		public void BurstStardust(BattleUnitModel unit, BattleUnitModel burster)
         {
 			// If has 30 or more deal half as damage.
 			if (this.stack >= 30)
@@ -267,7 +267,10 @@ namespace DDJJ_DLL_s
 				this._owner.TakeBreakDamage(this.stack, DamageType.Buf);
 
 				// This is to trigger DDJJ EGO
-				BattleUnitBuf_DDJJEgoAwake.AddBuf(burster, 0);
+				if (this._owner.passiveDetail.HasPassive<PassiveAbility_EclosingOne>())
+                {
+					BattleUnitBuf_DDJJEgoAwake.AddBuf(burster, 0);
+                }
 			}
 			// Else deal only stagger.
             else
@@ -275,8 +278,47 @@ namespace DDJJ_DLL_s
 				this._owner.TakeBreakDamage(this.stack, DamageType.Buf);
             }
 
+			// To let know who was Trigger Burst and how many times to apply it.
+			BattleUnitBuf_stardustBurstTriggered.AddBuf(unit, this.stack / 2);
+
+			// Mainly only for the Burst Draw Page and Light Restore passive for DDJJEGO.
+			// But can be updated into the future as necessary.
+			BattleUnitBuf_stardustBurstTriggeredByUser.AddBuf(burster, this.stack / 2);
+
 			// Halve the amount.
 			BattleUnitBuf_DDJJsStardust.SubBuf(this._owner, this.stack / 2, 1);
+		}
+
+		public static void Transfer(BattleUnitModel receiver, BattleUnitModel transferer, int amount)
+		{
+			// Bool to see it exists
+			bool dDJJsStardust = transferer.bufListDetail.GetActivatedBufList().Exists((BattleUnitBuf x) => x is BattleUnitBuf_DDJJsStardust);
+
+			// If it has the effect call the function that bursts the Stardust.
+			if (dDJJsStardust)
+			{
+				BattleUnitBuf_DDJJsStardust dDJJsStardustEffect = receiver.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_DDJJsStardust) as BattleUnitBuf_DDJJsStardust;
+
+				dDJJsStardustEffect.TransferStardust(receiver, transferer, amount);
+			}
+		}
+
+		public void TransferStardust(BattleUnitModel receiver, BattleUnitModel transferer, int amount)
+		{
+			BattleUnitBuf_DDJJsStardust dDJJsStardustEffect = transferer.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_DDJJsStardust) as BattleUnitBuf_DDJJsStardust;
+
+			// If less than needed tranfer it all.
+			if (dDJJsStardustEffect.stack < amount)
+            {
+				BattleUnitBuf_DDJJsStardust.AddBuf(receiver, dDJJsStardustEffect.stack);
+				BattleUnitBuf_DDJJsStardust.SubBuf(transferer, dDJJsStardustEffect.stack, 1);
+			}
+			// If has enough do the amount.
+			else
+            {
+				BattleUnitBuf_DDJJsStardust.AddBuf(receiver, amount);
+				BattleUnitBuf_DDJJsStardust.SubBuf(transferer, amount, 1);
+			}
 		}
 
 		/// Built-in funcs \\\
@@ -430,6 +472,71 @@ namespace DDJJ_DLL_s
 
 			double percentasdouble = (double)percentage / 100;
 			this.stack -= value * (int)percentasdouble;
+		}
+	}
+
+	public class BattleUnitBuf_stardustBurstTriggered : BattleUnitBuf
+    {
+		public BattleUnitBuf_stardustBurstTriggered(BattleUnitModel model)
+		{
+			this._owner = model;
+			this.stack = 0;
+		}
+
+		/// Built-in funcs \\\
+		public void Add(int add)
+		{
+			this.stack += add;
+		}
+
+		public static void AddBuf(BattleUnitModel unit, int stack)
+		{
+			BattleUnitBuf_stardustBurstTriggered BattleUnitBuf_stardustBurstTriggered = unit.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_stardustBurstTriggered) as BattleUnitBuf_stardustBurstTriggered;
+			if (BattleUnitBuf_stardustBurstTriggered == null)
+			{
+				BattleUnitBuf_stardustBurstTriggered BattleUnitBuf_stardustBurstTriggered2 = new BattleUnitBuf_stardustBurstTriggered(unit);
+				BattleUnitBuf_stardustBurstTriggered2.Add(stack);
+				unit.bufListDetail.AddBuf(BattleUnitBuf_stardustBurstTriggered2);
+			}
+			else
+			{
+				BattleUnitBuf_stardustBurstTriggered.Add(stack);
+			}
+		}
+	}
+
+	public class BattleUnitBuf_stardustBurstTriggeredByUser : BattleUnitBuf
+	{
+		public BattleUnitBuf_stardustBurstTriggeredByUser(BattleUnitModel model)
+		{
+			this._owner = model;
+			this.stack = 0;
+		}
+
+		public override void OnRoundEnd()
+        {
+			this.Destroy();
+        }
+
+		/// Built-in funcs \\\
+		public void Add(int add)
+		{
+			this.stack += add;
+		}
+
+		public static void AddBuf(BattleUnitModel unit, int stack)
+		{
+			BattleUnitBuf_stardustBurstTriggeredByUser BattleUnitBuf_stardustBurstTriggeredByUser = unit.bufListDetail.GetActivatedBufList().Find((BattleUnitBuf x) => x is BattleUnitBuf_stardustBurstTriggeredByUser) as BattleUnitBuf_stardustBurstTriggeredByUser;
+			if (BattleUnitBuf_stardustBurstTriggeredByUser == null)
+			{
+				BattleUnitBuf_stardustBurstTriggeredByUser BattleUnitBuf_stardustBurstTriggeredByUser2 = new BattleUnitBuf_stardustBurstTriggeredByUser(unit);
+				BattleUnitBuf_stardustBurstTriggeredByUser2.Add(stack);
+				unit.bufListDetail.AddBuf(BattleUnitBuf_stardustBurstTriggeredByUser2);
+			}
+			else
+			{
+				BattleUnitBuf_stardustBurstTriggeredByUser.Add(stack);
+			}
 		}
 	}
 

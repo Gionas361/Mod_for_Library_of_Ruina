@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@DDJJEGO_DLLs", "@DDJJEGO_DLLs.csproj", "{24B53D1E-4F52-4E94-8264-DC4E8DE0F158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B53D1E-4F52-4E94-8264-DC4E8DE0F158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B53D1E-4F52-4E94-8264-DC4E8DE0F158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B53D1E-4F52-4E94-8264-DC4E8DE0F158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B53D1E-4F52-4E94-8264-DC4E8DE0F158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07BCC67F-97B0-4CBA-93D3-9F062337894B}
+	EndGlobalSection
+EndGlobal

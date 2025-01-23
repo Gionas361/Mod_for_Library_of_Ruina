@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScenarioRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Chapter ID="-1">
+    <Title />
+  </Chapter>
+  <Group>
+    <GroupName>group</GroupName>
+    <Episode>
+      <EpisodeName>Episode</EpisodeName>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="0" Model="">
+          <Teller>???</Teller>
+          <Title>???</Title>
+          <Content>Ah, finally. After all this time; it finally worked!</Content>
+        </Dialog>
+        <Dialog ID="1" Model="">
+          <Teller>D.D.J.J?</Teller>
+          <Title>???</Title>
+          <Content>Who? Where am I?</Content>
+        </Dialog>
+        <Dialog ID="2" Model="">
+          <Teller>D.D.J.J?</Teller>
+          <Title>???</Title>
+          <Content>Uhg...</Content>
+        </Dialog>
+        <Dialog ID="3" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(What happened... did I lose...?)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="4" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(Shit... I'm so goddamned useless... even after gaining this bizarre power... I failed miserably...)</Content>
+        </Dialog>
+        <Dialog ID="5" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(Even after overcoming everything that was holding me back, after overcoming my fear. After giving it my all... I failed.)</Content>
+        </Dialog>
+        <Dialog ID="6" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="7" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(Who are you... why would you say shit like that...)</Content>
+        </Dialog>
+        <Dialog ID="8" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="9" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(You... how much do you know about me?)</Content>
+        </Dialog>
+        <Dialog ID="10" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="11" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(All you say is true... My life so worthless and uneventful I would throw it away just for the chance of getting back my friends...)</Content>
+        </Dialog>
+        <Dialog ID="12" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(The people that have been there for me. That I can joke around with and not suffer any criticism.)</Content>
+        </Dialog>
+        <Dialog ID="13" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(The people that make me forget about everything negative in my life when I spend time with them...)</Content>
+        </Dialog>
+        <Dialog ID="14" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="15" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(But even so, even if it might be too late... what else can I do but try and get them back!?!?)</Content>
+        </Dialog>
+        <Dialog ID="16" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="17" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(I've given up on so much...)</Content>
+        </Dialog>
+        <Dialog ID="18" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="19" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(But... if I give up on them... WHAT WILL I HAVE LEFT!?!?!?)</Content>
+        </Dialog>
+        <Dialog ID="20" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="21" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>(I... I... I WO-)</Content>
+        </Dialog>
+        <Dialog ID="22" Model="">
+          <Teller>???</Teller>
+          <Title>???</Title>
+          <Content>My chi-?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="23" Model="">
+          <Teller>???</Teller>
+          <Title>???</Title>
+          <Content>Wake U-</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="24" Model="">
+          <Teller>???</Teller>
+          <Title>???</Title>
+          <Content>Wake Up!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>???</PlaceName>
+        <Dialog ID="25" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Uhg....</Content>
+        </Dialog>
+        <Dialog ID="26" Model="">
+          <Teller>???</Teller>
+          <Title>???</Title>
+          <Content>Good morning my child! How are you feeling?</Content>
+        </Dialog>
+        <Dialog ID="27" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Mother? Where am I?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="28" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>I took you to my Research Laboratory! I needed to confirm the condition of your body. You were bleeding really bad; you had serious injuries. Which shouldn't have been the case...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="29" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>You wouldn't remember the last time I took you here, as you were but a small child. BUT THAT DOESN'T MATTER!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="30" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Your body... finally, it's germinated.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="31" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Germinated</Title>
+          <Content>What do you mean?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="32" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Do you not see? Your body has turned into something well beyond your previous state...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="33" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>While previously, you couldn't even move your body as you wished... NOW, you are capable of so much more. More than your average Fixer. So much more...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="34" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Germinated</Title>
+          <Content>That means... you did this... to me?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="35" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Correct!!! I developed the method to turn your body from the fragile mess that it was before, into a body of an unstoppable force.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="36" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>After so long, you finally awakened it. And made it's force your own! This couldn't make me more happy!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="37" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>After so much stagnation, after so much time spent in the Chrysalis stage. It's finally gotten to germinate.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="38" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Germinated</Title>
+          <Content>I can't quite follow what you are saying Mother...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="39" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>BUT ENOUGH OF THAT!!! Tell me, child, what happened when it germinated, and how did you receive those injuries? Was it due to the germination? Did something else happen?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="40" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Germinated</Title>
+          <Content>(And so I told her what happened in my room, how I ended up in the Library. My reasoning for going in there. And what happened in there.)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="41" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>I see...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="42" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>My child, you've gone through a lot. But Mother is here for you.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="43" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>So you can forget about that Library. Right now we have to focus on your body and my research!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="44" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Germinated</Title>
+          <Content>(What...?)</Content>
+        </Dialog>
+        <Dialog ID="45" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>What did she say...?</Content>
+        </Dialog>
+        <Dialog ID="46" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>To give up on my friends?</Content>
+        </Dialog>
+        <Dialog ID="47" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>To give up again? To give up on what I want to do???</Content>
+        </Dialog>
+        <Dialog ID="48" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>MY FRIEND'S LIFES ARE AT STAKE!!!</Content>
+        </Dialog>
+        <Dialog ID="49" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>The ones that were there for me through so much pain!</Content>
+        </Dialog>
+        <Dialog ID="50" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="51" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>So you are back...</Content>
+        </Dialog>
+        <Dialog ID="52" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="53" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>You really have nothing better to say? Nothing better to do?</Content>
+        </Dialog>
+        <Dialog ID="54" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>You are just like mother... not even thinking about what I want...</Content>
+        </Dialog>
+        <Dialog ID="55" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>She's more focused on her research, and you are focused on making me give up on my wish. On my decision...</Content>
+        </Dialog>
+        <Dialog ID="56" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>...</Content>
+        </Dialog>
+        <Dialog ID="57" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>You know what...</Content>
+        </Dialog>
+        <Dialog ID="58" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Let me tell you what I was going to say before our "conversation" was cut off.</Content>
+        </Dialog>
+        <Dialog ID="59" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>I WON'T FUCKING GIVE UP!</Content>
+        </Dialog>
+        <Dialog ID="60" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>FUCK YOU!!!!</Content>
+        </Dialog>
+        <Dialog ID="61" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>I couldn't give less of a fuck as to what else you have to say.</Content>
+        </Dialog>
+        <Dialog ID="62" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>I'm tired of having to rely on people to both choose and do things for me.</Content>
+        </Dialog>
+        <Dialog ID="63" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Now...</Content>
+        </Dialog>
+        <Dialog ID="64" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>I'm in control. I choose my future. AND YOU CAN'T CONVINCE ME OTHERWISE!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="65" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Mother... no. I won't do as you say anymore.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="66" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>What... did you just say...?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="67" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Heh... can you feel it? You must be seeing red...</Content>
+        </Dialog>
+        <Dialog ID="68" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="69" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>A child should do as their Mother tells them to do. A child should obediently do as they're told.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="70" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>So of course I tampered with "it". I added a security measure that would make sure you don't go against me. Like you did as a child.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="71" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>As soon as you found out your body would become practically unliveable. You almost ran away from me, good thing my colleague was there to assist me in my groundbreaking research.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="72" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>Wait... YOU were the reason my body was like that????</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="73" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>And what of it?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="74" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Children are already such a liability. So of course you should do your best to help me with my work.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="75" Model="">
+          <Teller>Mother</Teller>
+          <Title>???</Title>
+          <Content>Additionally. You were only born to be my research subject. Nothing more. Nothing less.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="76" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>???</Title>
+          <Content>I see...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="77" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The ???</Title>
+          <Content>To you...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="78" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The ???</Title>
+          <Content>I'm just a lab rat.</Content>
+        </Dialog>
+        <Dialog ID="79" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The ???</Title>
+          <Content>Nothing more.</Content>
+        </Dialog>
+        <Dialog ID="80" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Nothing less.</Content>
+        </Dialog>
+        <Dialog ID="81" Model="">
+          <Teller>???</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Enough is enough.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="82" Model="">
+          <Teller>???</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Nothing; Nobody, will tell me what to do anymore.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="83" Model="">
+          <Teller>???</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>From now on, I will decide for myself. And I choose to save my friends... no.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Laboratory?</PlaceName>
+        <Dialog ID="84" Model="">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>My family.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="85" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Oi Oi Oi. This is seriously bad news, isn't it?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="86" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>To think the library is shaking, even though he has not arrived yet.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="87" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Asistant Librarian</Title>
+          <Content>This is not going to be an easy fight is it?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="88" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Roland...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="89" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Yeah yeah. Don't worry.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside the Library</PlaceName>
+        <Dialog ID="90" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Library Assistant</Title>
+          <Content>I'll take care of this like I always do.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="91" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Back here again...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="92" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Greetings, dear guest. I welcome you again to my Library. I am Angela, the director and librarian of my role's namesake.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="93" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="94" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>You... I saw you last time when I came here...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="95" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Do you feel no guilt? Do you feel anything after taking the lives of my friends? Do you have no emotions? Do you not have a soul?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="96" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>In the invitation, it detailed how it would go. Everyone that has come here. And ended up as a book, knew the risks that came with this ordeal.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="97" Model="신도1">
+          <Teller>???</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>THAT IS NOT THE POINT!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="98" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>The fact that you would require one's life as collateral for losing your stupid ordeal is absurd to me... it's disgusting!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="99" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>This is just how the city is; always taking way from others with no regard for the victim.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="100" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>I'm different!!! Every single guest had the choice of coming here if they wished. They could have even left before the ordeal began if they changed their minds.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="101" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>I'm nothing like him!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="102" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Stop. Just stop.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="103" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>We are going nowhere, and I couldn't care less about you, your situation, or whatever led you to do this.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="104" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>Just know... once I get back my friends...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="105" Model="신도1">
+          <Teller>D.D.J.J</Teller>
+          <Title>The Metamorphosis</Title>
+          <Content>I'LL MAKE SURE YOUR SHITTY LIBRARY BURNS DOWN TO THE GROUND!!!</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="106" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>...</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="107" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>May you find your book in this place...</Content>
+        </Dialog>
+      </Place>
+    </Episode>
+  </Group>
+</ScenarioRoot>

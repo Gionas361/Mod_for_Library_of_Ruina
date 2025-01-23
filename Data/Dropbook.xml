@@ -30,7 +30,7 @@
     <Name>Book of Noveau Starlight</Name>
     <TextId />
     <BookIcon>StarlightTwo</BookIcon>
-    <Chapter>6</Chapter>
+    <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000005</DropItem>
   </BookUse>
@@ -38,7 +38,7 @@
     <Name>Book of Zerk</Name>
     <TextId />
     <BookIcon>StarlightTwo</BookIcon>
-    <Chapter>6</Chapter>
+    <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000006</DropItem>
   </BookUse>
@@ -46,7 +46,7 @@
     <Name>Book of Irah</Name>
     <TextId />
     <BookIcon>StarlightTwo</BookIcon>
-    <Chapter>6</Chapter>
+    <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000007</DropItem>
   </BookUse>
@@ -54,7 +54,7 @@
     <Name>Book of Gionas</Name>
     <TextId />
     <BookIcon>StarlightThree</BookIcon>
-    <Chapter>6</Chapter>
+    <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000008</DropItem>
   </BookUse>
@@ -62,8 +62,32 @@
     <Name>Book of DDJJ</Name>
     <TextId />
     <BookIcon>StarlightThree</BookIcon>
-    <Chapter>6</Chapter>
+    <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000009</DropItem>
+  </BookUse>
+  <BookUse ID="9">
+    <Name>Book of Jijikan</Name>
+    <TextId />
+    <BookIcon>StarlightFour</BookIcon>
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000010</DropItem>
+  </BookUse>
+  <BookUse ID="10">
+    <Name>Book of Awoken D.D.J.J</Name>
+    <TextId />
+    <BookIcon>StarlightDDJJ</BookIcon>
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000011</DropItem>
+  </BookUse>
+  <BookUse ID="11">
+    <Name>Book of Yaren</Name>
+    <TextId />
+    <BookIcon>StarlightThree</BookIcon>
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000012</DropItem>
   </BookUse>
 </BookUseXmlRoot>

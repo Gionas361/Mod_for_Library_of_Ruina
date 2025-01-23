@@ -350,7 +350,7 @@ public class PassiveAbility_EgoAbility : PassiveAbilityBase
 
 public class PassiveAbility_TwoCardsPerScene : PassiveAbilityBase
 {
-    public override void OnRoundEnd()
+    public override void OnRoundStart()
     {
         this.owner.allyCardDetail.DrawCards(2);
     }

@@ -840,7 +840,7 @@ namespace Gionas_DLLs
 	public class DiceCardSelfAbility_15DreamRaiseMinimum2 : DiceCardSelfAbilityBase
 	{
 		public override string[] Keywords => new string[] { "DreamOfGionas" };
-		public static string Desc = "[On Use] If +15 Dreams, set base minimum Power of Dices in page to 3. [On Hit] Destroy all of opponent's dice. [On Clash Lose] Gain 3 Dream. [On Clash Win] Destroy a Combat Page set on another random Speed die of the target.";
+		public static string Desc = "[On Use] If +15 Dreams, add +2 base minimum roll to all ATK dice in page. [On Hit] Destroy all of opponent's dice. [On Clash Lose] Gain 3 Dream. [On Clash Win] Destroy a Combat Page set on another random Speed die of the target.";
 
 		public override void OnUseCard()
 		{

@@ -153,13 +153,67 @@
     <MaxHeight>170</MaxHeight>
     <Unknown>false</Unknown>
     <Gender>M</Gender>
-    <Retreat>false</Retreat>
+    <Retreat>true</Retreat>
     <BookId>9</BookId>
     <BodyId>0</BodyId>
     <Exp>0</Exp>
     <DropBonus>0</DropBonus>
     <DropTable Level="0">
       <DropItem Prob="1">8</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="10">
+    <Name>Jijikan</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>M</Gender>
+    <Retreat>false</Retreat>
+    <BookId>10</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">9</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="11">
+    <Name>Awoken D.D.J.J</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>M</Gender>
+    <Retreat>false</Retreat>
+    <BookId>11</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">10</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="12">
+    <Name>Yaren</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>M</Gender>
+    <Retreat>false</Retreat>
+    <BookId>12</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">11</DropItem>
     </DropTable>
     <AiScript />
   </Enemy>

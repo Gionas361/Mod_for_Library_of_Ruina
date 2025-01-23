@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- Starlight's Passives -->
   <Passive ID="1">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -26,6 +27,7 @@
     <Name>Star Burst</Name>
     <Desc>Every turn 2 add a "Star Fall" to Librarian's hand. Every turn 4 "Infi'nitas" and every turn 6 add both to Librarian's hand.</Desc>
   </Passive>
+  <!-- Demi's Passives -->
   <Passive ID="3">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -65,6 +67,7 @@
     <Name>Speed IV</Name>
     <Desc>Add a dice for each emotional level of the Librarian.</Desc>
   </Passive>
+  <!-- Rey's Passives -->
   <Passive ID="6">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -78,6 +81,7 @@
     <Name>Hunting Horn Wielder</Name>
     <Desc>If no cards were used this Scene recover 3 Light. For each Symphony used in order increase Hunting Horn Notes by 1. Upon reaching 4th, discard a card and get the 5th Symphony. When the 5th is used, reset Hunting Horn Notes and give every Librarian 3 Strenght, Endurance and Haste, all librarians restore 3 Light, and heal them by 9 HP.</Desc>
   </Passive>
+  <!-- Starlight Nouvouse Passives -->
   <Passive ID="7">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -91,6 +95,7 @@
     <Name>Valkiria Awakening</Name>
     <Desc>Gains the 3 E.G.O pages that belong to the Strongest Star in the Existance.</Desc>
   </Passive>
+  <!-- Zerk's Passives -->
   <Passive ID="8">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -130,6 +135,7 @@
     <Name>Overpowered Dragon</Name>
     <Desc>Give 2 Speed Die to the Librarian. Decrease the cost of all the cards by the emotional level of the Librarian and restore light equal to the level of the Librarian.</Desc>
   </Passive>
+  <!-- Irah's Passives -->
   <Passive ID="11">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -156,6 +162,7 @@
     <Name>Unstoppable</Name>
     <Desc>Recover all light and draw all cards in deck.</Desc>
   </Passive>
+  <!-- Gionas' Passives -->
   <Passive ID="13">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -182,6 +189,7 @@
     <Name>Sleep Demon</Name>
     <Desc>Doesn't lose 1 Nightmare on Scene Start and on Hit, all Dreams are forgotten at end of Scene. Gain unique page Fear Dream. If on Scene End, librarian has newly gotten the Nightmare Debuff, Distort into the Sleep Demon. When Distorted, gain 1 Nightmare on Scene Start and on Scene End take SP DMG: 3 x Nightmare. Stay Distorted for as long as Librarian has Nightmares. Restore Light and Draw Pages equal to half of Nightmares.</Desc>
   </Passive>
+  <!-- DDJJ's Passives -->
   <Passive ID="15">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
@@ -220,5 +228,255 @@
     <Script>EclosingOne</Script>
     <Name>The Eclosing One</Name>
     <Desc>If User causes a "True Burst" of Stardust, Awaken E.G.O next turn. Then discard 3 random Pages and Obtain the Single-Use Page: "Culmination".</Desc>
+  </Passive>
+  <!-- Jijikan's Passives -->
+  <Passive ID="18">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>TimeAxisOfTheWhite</Script>
+    <Name>时间轴</Name>
+    <Desc>Gives the 时间轴 buff to this character. Upon winning a clash using an Attack dice, increase Time Axis by 1. On Losing a clash against a Attack dice decrease Time Axis by 1. On Losing a clash against a Defence/Evasion dice decrease Time Axis by 2.</Desc>
+  </Passive>
+  <Passive ID="19">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>MasterOfTheTimeAxis</Script>
+    <Name>Everything Comes with a Cost</Name>
+    <Desc>Gain 2 EGO pages. [On Round Start] Check if teammates are alive; gain 1 Permanent Power if all allies are dead. Additionally gain 1 Permanent DMG Up per lack of max allies (Up to 4). Also for every 2 allies of the max amount of allies lacked, gain 1 Speed Dice and MAX Light. Finally if all allies are dead, increase the MAXIMUM an MINIMUM values of 时间轴 by 10 and the character's One-Sided attacks increase 时间轴 by 1.</Desc>
+  </Passive>
+  <Passive ID="20">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>TimeAllocationOfWhite</Script>
+    <Name>Time Re-Allocation</Name>
+    <Desc>When killing an Opponent, Recover HP by 25% and Stagger by 50% and gain 3 时间轴.</Desc>
+  </Passive>
+  <Passive ID="21">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>TimeAxisOfTheWhite</Script>
+    <Name>时间轴</Name>
+    <Desc>Gives the 时间轴 buff to this character. Upon winning a clash using an Attack dice, increase Time Axis by 2. On Losing a clash decrease Time Axis by 1. On Kill recover 10% of Max HP and 20% of Max Stagger, additionally gain 6 时间轴.</Desc>
+  </Passive>
+  <!-- DDJJ EGO Passives -->
+  <Passive ID="22">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script>hitApplyRandomEffectsStardust</Script>
+    <Name>Plague Affliction</Name>
+    <Desc> Will inflict a pre-determined amount of stacks depending on the effect rolled. This occurs upon landing a hit.</Desc>
+  </Passive>
+  <Passive ID="23">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>stardustSpreadByDDJJ</Script>
+    <Name>Stardust Spreader</Name>
+    <Desc>On round start, user will inflict 1~5 Stardust to all the character in the stage. When getting hit, inflict 1~3 Stardust on Attacker.</Desc>
+  </Passive>
+  <Passive ID="24">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>stardustBurstEffectApplication</Script>
+    <Name>Carrier of a Million Plagues</Name>
+    <Desc>This occurs at the End of the Scene. If Stardust Burst was triggered at any point in the scene to any unit, for every stack of Stardust lost by any unit due to Stardust Burst, activate the "Plague Affliction" passive by the amount of Stardust lost by that unit. (This will not trigger on the unit that has this passive.)</Desc>
+  </Passive>
+  <Passive ID="25">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>drawAndRestoreByStardustBurst</Script>
+    <Name>No more fears.</Name>
+    <Desc>When triggering Stardust Burst draw 1 page and restore 1 light per 5 Stardust lost by the target when the effect triggered.</Desc>
+  </Passive>
+  <Passive ID="26">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>7</Cost>
+    <Script>dDJJsStardustPlotArmor</Script>
+    <Name>The Butterfly's Effect</Name>
+    <Desc>If this character reaches Emotion Level 4 or it's HP is lowered to or below 30%...</Desc>
+  </Passive>
+  <Passive ID="27">
+    <Negative>false</Negative>
+    <IsHide>true</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>SpawnGionasAnYaren</Script>
+    <Name>Friends Together</Name>
+    <Desc>Spawns Friends :)</Desc>
+  </Passive>
+  <!-- Yaren's Passives -->
+  <Passive ID="28">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>BoilingPointManager</Script>
+    <Name>Boiling Point</Name>
+    <Desc>Every scene the character takes DMG, increases the Boiling Point by either the roll of the enemy dice or by the damage received (whichever is higher).</Desc>
+  </Passive>
+  <Passive ID="29">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>BlockDicePowerUpYaren</Script>
+    <Name>The Tank</Name>
+    <Desc>Defensive dice gain 2 power. If a page has both Attack and Defensive dice, only gain 1.</Desc>
+  </Passive>
+  <Passive ID="30">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>HalfDMGBurnYaren</Script>
+    <Name>Heat Resistant</Name>
+    <Desc>Only takes half DMG from burn.</Desc>
+  </Passive>
+  <Passive ID="31">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>EgoPageAndDistortYaren</Script>
+    <Name>Explosive EGO</Name>
+    <Desc>Gain EGO page. Once the conditions are met, Distort and fully recover Stagger.</Desc>
+  </Passive>
+  <Passive ID="32">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>ChainReactionManager</Script>
+    <Name>Chain Reaction</Name>
+    <Desc>When dealing DMG, inflict 1~2 Chain Reaction. When hit by this character always trigger Chain Reaction.</Desc>
+  </Passive>
+  <Passive ID="33">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>AttackDicePowerUpYaren</Script>
+    <Name>THE. Tank.</Name>
+    <Desc>Attack dice gain 2 power. If a page has both Attack and Defensive dice, only gain 1.</Desc>
+  </Passive>
+  <Passive ID="34">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>AllDefensiveDiceToAttackYaren</Script>
+    <Name>On the Offensive!</Name>
+    <Desc>All dice in pages used, turn into Attack dice. (Evasive dice turn into Slash dice and Block dice turn into Blunt dice)</Desc>
+  </Passive>
+  <Passive ID="35">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>UnDistortYaren</Script>
+    <Name>Snap BACK to reality</Name>
+    <Desc>When 3 Scenes have gone by after Distorting, dispel Distortion. (Does not occur in some specific Story nodes). If Boiling Point is at 50 or more when this occurs, set Boiling Point to 0.</Desc>
+  </Passive>
+  <Passive ID="36">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>12</Cost>
+    <Script>TheTankIsHereYaren</Script>
+    <Name>The Shield</Name>
+    <Desc>All teammates become untargetable, every third scene this effects is dispelled. If no allies remain, this effect is only triggered every third scene but for this character. Any one-sided page is responded with 1~3 Defense Dice (6-9 roll value).</Desc>
   </Passive>
 </PassiveXmlRoot>

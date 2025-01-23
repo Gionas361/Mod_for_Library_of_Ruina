@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScenarioRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Chapter ID="-1">
+    <Title />
+  </Chapter>
+  <Group>
+    <GroupName>group</GroupName>
+    <Episode>
+      <EpisodeName>Episode</EpisodeName>
+      <Place>
+        <PlaceName>Mind</PlaceName>
+        <Dialog ID="0" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Huh...)</Content>
+        </Dialog>
+        <Dialog ID="1" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(What... happened?)</Content>
+        </Dialog>
+        <Dialog ID="2" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I could have sworn I was in my room just a second ago...)</Content>
+        </Dialog>
+        <Dialog ID="3" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I need...)</Content>
+        </Dialog>
+        <Dialog ID="4" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(To remember...)</Content>
+        </Dialog>
+        <Dialog ID="5" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(What... happened?)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>House</PlaceName>
+        <Dialog ID="6" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>And this goes here, and this over here... just a little more... done? I have to say, this is my best drawing so far.</Content>
+        </Dialog>
+        <Dialog ID="7" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>That dream last night inspired me real good! If not for it I would have no idea what to make today.</Content>
+        </Dialog>
+        <Dialog ID="8" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>?</Content>
+        </Dialog>
+        <Dialog ID="9" Model="">
+          <Teller>Mother</Teller>
+          <Title />
+          <Content>G□□va□□i!!! Z□h□□!!! X□□ri□a!!!</Content>
+        </Dialog>
+        <Dialog ID="10" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Huh? Mother? Why is she calling?</Content>
+        </Dialog>
+        <Dialog ID="11" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I see... so this is what I was doing, but, why would mother, calling me and my siblings lead to.... THIS? Let me think... my family... family... fam-)</Content>
+        </Dialog>
+        <Dialog ID="12" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(My family... is a family most people would call... "strange", or out of the ordinary. Mainly due to us all being on such good terms. Though to me, this is very normal. Sure, we've had our ups and downs.)</Content>
+        </Dialog>
+        <Dialog ID="13" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(But beyond that everything is good, due to this, I've often been left out of things because of my strange family... Not only that. Because my family was originally from the Backstreets. Only three generations ago did we begin being part of the Nest.)</Content>
+        </Dialog>
+        <Dialog ID="14" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Somehow though, we have managed to settle down. It's not been smooth sailing, as it's often very difficult to secure enough money and be productive enough for the Nest.)</Content>
+        </Dialog>
+        <Dialog ID="15" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Hmm... seems I'm rambling... I think to much. What happened next?)</Content>
+        </Dialog>
+        <Dialog ID="16" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>What's the matter mother? Did something occur?</Content>
+        </Dialog>
+        <Dialog ID="17" Model="">
+          <Teller>Mother</Teller>
+          <Title />
+          <Content>Please, take a seat, all of you.</Content>
+        </Dialog>
+        <Dialog ID="18" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I've always been a very, introverted individual. Yet, despite that I care a lot for my family. I managed to make friends in High School, and I'm even still in communication with them through a chat...)</Content>
+        </Dialog>
+        <Dialog ID="19" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I... even managed to go to the University in the center of the nest... with the help of my parents who even took loans to get me there.)</Content>
+        </Dialog>
+        <Dialog ID="20" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Why... am I thinking of this?)</Content>
+        </Dialog>
+        <Dialog ID="21" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Yet, despite all my efforts. It was NOTHING like the small town I was from. The topics were something I'd not even heard of in my small town. But that couldn't make sense. I was the best student in my town. I was always told I had a bright future...)</Content>
+        </Dialog>
+        <Dialog ID="22" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(A frog in a well... thats what I was... I tried... I REALLY tried making it, I even closed off myself from interacting with any entertainment. I even stopped talking to my only friends, I completely disconnected from the chat for a solid 3 months.)</Content>
+        </Dialog>
+        <Dialog ID="23" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Yet I still failed. I gave it my all............. I crumbled.)</Content>
+        </Dialog>
+        <Dialog ID="24" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I almost resorted to suicide. But I somehow never went through with it.)</Content>
+        </Dialog>
+        <Dialog ID="25" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(WHAT THE FUCK! STOP IT! I'M TRYING TO REMEMBER! STOP THESE SHITTY MEMORIES!!!)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>House</PlaceName>
+        <Dialog ID="26" Model="거주민1">
+          <Teller>Mother</Teller>
+          <Title />
+          <Content>I... have some things I need to communicate to you all. Recently, It's been very tough. For both me and your father. For all of us.</Content>
+        </Dialog>
+        <Dialog ID="27" Model="거주민1">
+          <Teller>Mother</Teller>
+          <Title />
+          <Content>I have spoken with your father and...</Content>
+        </Dialog>
+        <Dialog ID="28" Model="거주민1">
+          <Teller>Mother</Teller>
+          <Title />
+          <Content>It's been decided that your father will stay somewhere else for the time being... I... we need some space..............................</Content>
+        </Dialog>
+        <Dialog ID="29" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="30" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Huh?)</Content>
+        </Dialog>
+        <Dialog ID="31" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I can't remember what she said after that. All I can remember is that once she finished; my younger brother stormed out and slammed his bedroom door. Mother stared crying.)</Content>
+        </Dialog>
+        <Dialog ID="32" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(My sister left, I can't quite remember her expression. She had a situation long ago with my father and he almost lost his job due to it. I think... their relationship hasn't been the same. Father is silent.)</Content>
+        </Dialog>
+        <Dialog ID="33" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Unlike my brother and sister, who were very close to father and mother respectively. I never leaned into any side. As the middle child... I think I just never had the chance to get that close.)</Content>
+        </Dialog>
+        <Dialog ID="34" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I smiled through out it all. I couldn't show them my dark side, the thoughts I was hiding since I failed so miserably. I had to hide them so that the voice I had been hearing since then would be tuned out. So that I couldn't hear that voice that, Oh so wanted me to give up.)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>House</PlaceName>
+        <Dialog ID="35" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Unlike my siblings, I stood up normally and walked to my room in silence. Once I was out of sight and had closed the door behind me....)</Content>
+        </Dialog>
+        <Dialog ID="36" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(My legs lost all strenght. My heart, felt as if it were constricting into itself until it popped. My eyes were useless, the tears made my sight so blurry I could only move around because I'd spent so much time in my room.)</Content>
+        </Dialog>
+        <Dialog ID="37" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(It felt... as if millions of ants were crawling beneath my skin. I could barely breathe.)</Content>
+        </Dialog>
+        <Dialog ID="38" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I seemingly out of instinct, went to my computer to ask for help from my friends. With them, my true self could come out and not be judged...)</Content>
+        </Dialog>
+        <Dialog ID="39" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(But no one was there. It was too late into the night.)</Content>
+        </Dialog>
+        <Dialog ID="40" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(It was only me, in my room, alone... with my thoughts....)</Content>
+        </Dialog>
+        <Dialog ID="41" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(And that voice...)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Collapsing Mind</PlaceName>
+        <Dialog ID="42" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(I... If I had ended it all... would any of this had happened? If I weren't so useless... would my family not be crumbling right in front of me?)</Content>
+        </Dialog>
+        <Dialog ID="43" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(... heh... You... are a very sly individual, your words are that of a snake.)</Content>
+        </Dialog>
+        <Dialog ID="44" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Certantly, if I were a better, more inteligent person. Perhaps this outcome would be different. Perhaps... but, despite all the lows. YOU don't see me dead. DO YOU? Despite all my failures, I'm still standing.)</Content>
+        </Dialog>
+        <Dialog ID="45" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Certainly, it doesn't mean it'll all be perfect as you say. But you don't get to tell me when to throw in the the towel. YOU don't get to tell me WHAT TO FUCKING DO! I CHOOSE THAT!)</Content>
+        </Dialog>
+        <Dialog ID="46" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="47" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(How strange... you've gone silent... no... perhaps... yes... Something... I need something.)</Content>
+        </Dialog>
+        <Dialog ID="48" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(...)</Content>
+        </Dialog>
+        <Dialog ID="49" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(If only I could be like the stars. Surrounded by a void that protects me. A void so dark, any dream could reside there. A void where... the light... the imagination of that star can move freely.)</Content>
+        </Dialog>
+        <Dialog ID="50" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Something... my mind is such a mess... I need... something... something to relax me... something that will distract me long enough to gather the shards of my shattered mind...)</Content>
+        </Dialog>
+        <Dialog ID="51" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(Hm?)</Content>
+        </Dialog>
+        <Dialog ID="52" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>(How... is this here? A paper? Invitation? Library and books? Something...)</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Keter Floor of the Library</PlaceName>
+        <Dialog ID="53" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Huh, well that's a rare sight in the City.</Content>
+        </Dialog>
+        <Dialog ID="54" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>What do you mean?</Content>
+        </Dialog>
+        <Dialog ID="55" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>A family with a more humane relationship. A family that is... was together by love, and not by benefit. It's a rare sight in the city.</Content>
+        </Dialog>
+        <Dialog ID="56" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>I see.</Content>
+        </Dialog>
+        <Dialog ID="57" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Though I have to say, that final scene we saw... quite the disaster that is going to be for the Nest.</Content>
+        </Dialog>
+        <Dialog ID="58" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Certaintly, although we might not know the exact scale of it, it seemed like a very sizeable area got covered.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="59" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>... Now where could this be...</Content>
+        </Dialog>
+        <Dialog ID="60" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Greetings, dear guest. I am Angela, the director and librarian of my role's namesake.</Content>
+        </Dialog>
+        <Dialog ID="61" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Hello, nice to meet you. I'm... G□□va□□i.</Content>
+        </Dialog>
+        <Dialog ID="62" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Excuse me?</Content>
+        </Dialog>
+        <Dialog ID="63" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Ah... I'm sorry, it seems I can't quite remember my name. Let's go with Gionas.</Content>
+        </Dialog>
+        <Dialog ID="64" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Do you not feel anything after what just happened?</Content>
+        </Dialog>
+        <Dialog ID="65" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Hm? I'm sorry, I don't know what you mean. Did something occur?</Content>
+        </Dialog>
+        <Dialog ID="66" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>You seem quite relaxed despite what just happened to and back on your house.</Content>
+        </Dialog>
+        <Dialog ID="67" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>I'm very sorry... uh... Angela correct? It's all very hazy right now. But I can't quite remember what you mean with... in my house?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="68" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>I've only been living in my "World", I've never lived in a house.</Content>
+        </Dialog>
+        <Dialog ID="69" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>... I see... then. Do you remember what you are here for?</Content>
+        </Dialog>
+        <Dialog ID="70" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>YES! That I do remember. I'm here for... something? One second...</Content>
+        </Dialog>
+        <Dialog ID="71" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Yes, right here. In the paper, it says a "Book of Something". And that, there is an ordeal of some kind?</Content>
+        </Dialog>
+        <Dialog ID="72" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>In this ordeal you are staking your life for the book offered... Is this really worth risking your life for?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Library Entrance</PlaceName>
+        <Dialog ID="73" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>Sure.</Content>
+        </Dialog>
+        <Dialog ID="72" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>I see...</Content>
+        </Dialog>
+        <Dialog ID="73" Model="신도1">
+          <Teller>Gionas</Teller>
+          <Title>Dreamer</Title>
+          <Content>So... Do you need anything else from me? Or can I proceed with this... "ordeal".</Content>
+        </Dialog>
+        <Dialog ID="74" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>No, this will suffice. Then... May you find your book in this place.</Content>
+        </Dialog>
+      </Place>
+    </Episode>
+  </Group>
+</ScenarioRoot>

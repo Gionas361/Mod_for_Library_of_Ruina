@@ -347,4 +347,119 @@
     <SpeedDiceNum>1</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
+  <Book ID="10000010">
+    <Name>Jijikan's Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightFour</BookIcon>
+    <EquipEffect>
+      <HP>165</HP>
+      <Break>65</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>8</Speed>
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <SResist>Normal</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Endure</HBResist>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive>18</Passive>
+      <Passive>19</Passive>
+      <Passive>20</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>JijikanEnemy</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <RangeType>Melee</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="10000011">
+    <Name>Awoken D.D.J.J's Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightDDJJ</BookIcon>
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>177</HP>
+      <DeadLine>0</DeadLine>
+      <Break>87</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <SpeedDiceNum>1</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Endure</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Normal</HBResist>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive>15</Passive>
+      <Passive>16</Passive>
+      <Passive>17</Passive>
+      <Passive>22</Passive>
+      <Passive>23</Passive>
+      <Passive>24</Passive>
+      <Passive>25</Passive>
+      <Passive>26</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>DDJJPlayer</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SuccessionPossibleNumber>13</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="10000012">
+    <Name>Yaren's Page</Name>
+    <TextId>-1</TextId>
+    <Episode>7</Episode>
+    <BookIcon>StarlightThree</BookIcon>
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>210</HP>
+      <DeadLine>0</DeadLine>
+      <Break>105</Break>
+      <SpeedMin>1</SpeedMin>
+      <Speed>7</Speed>
+      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <SpeedDiceNum>1</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Endure</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive>36</Passive>
+      <Passive>28</Passive>
+      <Passive>29</Passive>
+      <Passive>30</Passive>
+      <Passive>31</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>YarenFull</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
 </BookXmlRoot>

@@ -72,6 +72,7 @@
 		<StoryType>StarlightThree</StoryType>
 
 		<StageOverride>9</StageOverride>
+		<StageOverride>13</StageOverride>
 		<StageOverride>10</StageOverride>
 
 		<Position x="-1450" y="5825"/>
@@ -79,6 +80,32 @@
 		<ConnectingLine>
 		  <Start x="-1450" y="5960"/> 
 		  <End x="-1050" y="5960"/>
+		</ConnectingLine>
+	</ProgressIcon>
+
+	<ProgressIcon>
+		<StoryType>StarlightFour</StoryType>
+
+		<StageOverride>11</StageOverride>
+
+		<Position x="-1050" y="6645" />
+		<!-- 135 difference from the starting icon to the ending icon. -->
+		<ConnectingLine>
+		  <Start x="-1050" y="6795"/> 
+		  <End x="-1050" y="5960"/>
+		</ConnectingLine>
+	</ProgressIcon>
+
+	<ProgressIcon>
+		<StoryType>StarlightDDJJ</StoryType>
+
+		<StageOverride>12</StageOverride>
+
+		<Position x="-1450" y="6645" />
+		<!-- 135 difference from the starting icon to the ending icon. -->
+		<ConnectingLine>
+		  <Start x="-1450" y="6795"/> 
+		  <End x="-1450" y="5960"/>
 		</ConnectingLine>
 	</ProgressIcon>
 

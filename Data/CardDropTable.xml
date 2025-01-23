@@ -88,4 +88,30 @@
     <Card>70</Card>
     <Card>71</Card>
   </DropTable>
+  <DropTable ID="9">
+    <Card>73</Card>
+    <Card>74</Card>
+    <Card>75</Card>
+    <Card>76</Card>
+    <Card>77</Card>
+    <Card>78</Card>
+  </DropTable>
+  <DropTable ID="10">
+    <Card>81</Card>
+    <Card>82</Card>
+    <Card>83</Card>
+    <Card>84</Card>
+    <Card>85</Card>
+    <Card>86</Card>
+    <Card>87</Card>
+  </DropTable>
+  <DropTable ID="11">
+    <Card>88</Card>
+    <Card>89</Card>
+    <Card>90</Card>
+    <Card>91</Card>
+    <Card>92</Card>
+    <Card>93</Card>
+    <Card>94</Card>
+  </DropTable>
 </CardDropTableXmlRoot>

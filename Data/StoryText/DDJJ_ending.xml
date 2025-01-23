@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScenarioRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Chapter ID="-1">
+    <Title />
+  </Chapter>
+  <Group>
+    <GroupName>group</GroupName>
+    <Episode>
+      <EpisodeName>Episode</EpisodeName>
+      <Place>
+        <PlaceName>Inside Library</PlaceName>
+        <Dialog ID="0" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Damn, he managed to escape!</Content>
+        </Dialog>
+        <Dialog ID="1" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Hm...</Content>
+        </Dialog>
+        <Dialog ID="2" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>A penny for your thoughts?</Content>
+        </Dialog>
+        <Dialog ID="3" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Does this not remind you of a similar guest we had before?</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside Library</PlaceName>
+        <Dialog ID="4" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>You mean that Philip kid? Yeah, they do seem to be kinda similar.</Content>
+        </Dialog>
+      </Place>
+      <Place>
+        <PlaceName>Inside Library</PlaceName>
+        <Dialog ID="5" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Though this one didn't seem to have gone through the same process as Philip. He did not seem to have been talking to any voice.</Content>
+        </Dialog>
+        <Dialog ID="6" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>That's true... perhaps the cause is that of a singularity and not of either Distortion or E.G.O?</Content>
+        </Dialog>
+        <Dialog ID="7" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>It is unfortunate that we lack the sufficient knowledge to reach a decisive conclusion.</Content>
+        </Dialog>
+        <Dialog ID="8" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>I'm fairly certain we will see him again. Just like we will most likely see that kid, Philip, come to the Library too.</Content>
+        </Dialog>
+        <Dialog ID="9" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>What makes you so certain?</Content>
+        </Dialog>
+        <Dialog ID="10" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>You had said previously that the Library allows its guests to leave for a reason right? Then they'll most likely come back!</Content>
+        </Dialog>
+        <Dialog ID="11" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>Hm... To think I wouldn't remember that fact until you mentioned it...</Content>
+        </Dialog>
+        <Dialog ID="12" Model="롤랑">
+          <Teller>Roland</Teller>
+          <Title>Assistant Librarian</Title>
+          <Content>Could be a sign that you're closer to turning into a human.</Content>
+        </Dialog>
+        <Dialog ID="13" Model="앤젤라">
+          <Teller>Angela</Teller>
+          <Title>Library Director</Title>
+          <Content>That may just be the case.</Content>
+        </Dialog>
+      </Place>
+    </Episode>
+  </Group>
+</ScenarioRoot>

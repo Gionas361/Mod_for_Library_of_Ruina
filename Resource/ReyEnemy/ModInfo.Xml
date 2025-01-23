@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Rey</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="23" pivot_y="-383.9" />
+      <Head head_x="6.899994" head_y="487.6" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="64.39998" pivot_y="-416.0999" />
+      <Head head_x="-27.59999" head_y="450.8" rotation="4.84541" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="167.9" pivot_y="-457.4999" />
+      <Head head_x="39.10004" head_y="524.4" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="32.19999" pivot_y="-411.4999" />
+      <Head head_x="-34.5" head_y="439.3" rotation="17.56469" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="207.0001" pivot_y="-404.6" />
+      <Head head_x="-62.10005" head_y="395.6" rotation="-6.662436" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="317.3999" pivot_y="-492" />
+      <Head head_x="-87.39999" head_y="393.3" rotation="9.085146" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="259.9" pivot_y="-404.6001" />
+      <Head head_x="-119.6" head_y="388.7" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-89.7" pivot_y="-418.4" />
+      <Head head_x="-144.9" head_y="381.8" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="13.8" pivot_y="-381.6" />
+      <Head head_x="0" head_y="450.8" rotation="-6.662478" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="13.8" pivot_y="-379.3001" />
+      <Head head_x="-2.300001" head_y="443.9" rotation="-4.239736" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>
